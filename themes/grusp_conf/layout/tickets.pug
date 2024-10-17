@@ -1,0 +1,17 @@
+extends includes/layout.pug
+
+block content
+  section(id="tickets_page")
+    include includes/_breadcrumbs.pug
+
+    .container
+      .inner
+        h1(role="heading" aria-level="1").title-is-1= page.title
+        tito-widget(event=site.data.defaults.conference.tito.event)
+
+  //- imported components
+  include components/newsletter/newsletter
+  if(site.data.defaults.conference.sponsors_visible)
+    include components/sponsors/sponsors
+  if site.data.defaults.conference.community_partners
+    include components/community_partners/community_partners

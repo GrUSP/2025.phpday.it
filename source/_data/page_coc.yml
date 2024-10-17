@@ -1,0 +1,45 @@
+intro:
+  main_title: "Code of Conduct"
+  content_1: "phpday is a community conference intended for networking and collaboration in the developer community. We value the participation of each member of the community and want all attendees to have an enjoyable and fulfilling experience. Accordingly, all attendees are expected to show respect and courtesy to other attendees throughout the conference and at all conference events, whether officially sponsored by phpday or not."
+  content_2: "To make clear what is expected, all delegates/attendees, speakers, exhibitors, organizers and volunteers at any GrUSP event are required to conform to the following Code of Conduct. Organizers will enforce this code throughout the event (online and/or in-person)."
+short_version:
+  title: "The short version"
+  content_1: "No type of harassment, in any form, towards other people will be tolerated during every single event organized and sponsored by the association."
+  content_2: "All communication should be appropriate for a professional audience including people of many different backgrounds. Sexual language and imagery are never appropriate."
+  content_3: "Be kind to others. Do not insult or put down other attendees. Behave professionally. Remember that harassment and sexist, racist, or exclusionary jokes are never appropriate."
+  content_4: "Attendees violating these rules may be asked to leave the conference without a refund at the sole discretion of the conference organizers."
+  content_5: "Thank you for helping make this a welcoming, friendly event for all."
+  content_6:
+long_version:
+  title: "Our Pledge and Standards"
+  content_1: "We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation."
+  content_2: "We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community."
+  content_3: "<b>Examples of behavior that contributes to a positive environment for our community include:</b>
+  <ul>
+    <li>• Demonstrating empathy and kindness toward other people
+    <li>• Being respectful of differing opinions, viewpoints, and experiences
+    <li>• Giving and gracefully accepting constructive feedback
+    <li>• Accepting responsibility and apologizing to those affected by our mistakes, and learning from the experience
+    <li>• Focusing on what is best not just for us as individuals, but for the overall community
+  </ul>"
+  content_4: "<b>Examples of unacceptable behavior include:</b>
+  <ul>
+    <li>• The use of sexualized language or imagery, and sexual attention or advances of any kind
+    <li>• Trolling, insulting or derogatory comments, and personal or political attacks
+    <li>• Public or private harassment
+    <li>• Publishing others’ private information, such as a physical or email address, without their explicit permission
+    <li>• Other conduct which could reasonably be considered inappropriate in a professional setting
+  </ul>"
+  content_5: "<b>Enforcement Responsibilities</b><br>
+  GrUSP Team members are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.
+  <br>GrUSP Team members have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate."
+  content_6: "For further information on the Enforcement Responsabilities and Guidelines, please <a href='https://www.grusp.org/en/coc/'>visit the relevant page on GrUSP website.</a>
+   <br>
+   <br>
+   This Code of Conduct is adapted from the <a href='https://www.contributor-covenant.org/'>Contributor Covenant.</a>"
+  contact_info_title: "Are you witnessing a violation or are you not comfortable with something that happened?"
+  contact_content_1: "If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff."
+  contact_content_2: "In in-person events, you recognize the people on the team because they are wearing the yellow GrUSP logo t-shirt. You can also contact the venue staff and ask to be put in touch with the people responsible for the conference."
+  contact_content_3: "In online events, you can contact the organizing staff by looking for people registered as “name - GrUSP Team”, or you can contact us by sending an email to "
+  contact_content_4: "Conference staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance."
+  contact_content_5: "You can also contact us with the anonymous form <a href='https://www.grusp.org/en/coc/'>you can find here.</a>"

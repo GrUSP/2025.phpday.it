@@ -1,0 +1,32 @@
+header:
+  title_pre: "Let's meet in "
+intro:
+  main_title: "Where"
+  content_1: "The conference is hybrid: it takes place in person in Verona (Italy) and it is also possible to participate online.<br /> "
+  content_2: ""
+city_info:
+  title: "How it works"
+  subtitle_1: "In-person event"
+  description_1: "Access to the physical event will be subject to current COVID-19 regulation, like use of masks and spacings. For more information about our safety policies, <a href='https://www.grusp.org/en/conferences_/safety/'>visit this page on the GrUSP website.</a>"
+  subtitle_2: "Online event"
+  description_2: "Access to the online event only (live broadcast of the conference) can be purchased separately."
+map:
+  title: "Location"
+  map_url: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2799.4793358997117!2d10.969744115556647!3d45.43999607910055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4781e1e30a8be6af%3A0x8091b108e1d130c6!2sHotel%20San%20Marco%20Fitness%20Pool%20%26%20SPA!5e0!3m2!1sen!2sit!4v1587388989438!5m2!1sen!2sit"
+  video_caption: ""
+hotels:
+  title: "The conference venue"
+  intro: "If you want to reserve a room in the same hotel in which the conference is held, please reach out to them to know the offer reserved to the conference attendees."
+  agreements:
+    hotel_1:
+      name: "Hotel San Marco"
+      address: "Via Baldassarre Longhena, 42, 37138 Verona VR"
+      website: "https://www.sanmarco.vr.it/"
+      maps_url: "https://g.page/hotelsanmarcoverona"
+      phone: ""
+      phone_label: ""
+      email: "sanmarco@sanmarco.vr.it"
+address_aria_label: "hotel address"
+email_aria_label: "hotel email"
+phone_aria_label: "hotel phone"
+website_aria_label: "hotel phone"

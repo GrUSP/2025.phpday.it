@@ -1,0 +1,25 @@
+main_title: "Health and Safety Policy"
+content_1: "<br>The health and safety of our attendees, speakers, sponsors, and staff is our top priority.
+  We are closely monitoring the COVID-19 situation and will follow the guidance of the Italian health officials.
+  <br>We will keep this page updated with the latest regulations and recommendations."
+content_2: "<b>phpday team will:</b>
+  <ul>
+    <li>• Monitor the latest official guidelines and adjust our policy as needed;
+    <li>• Provide masks for those that want or need them.
+  </ul>
+"
+content_3: "<b>phpday team recommends that all attendees:</b>
+  <ul>
+    <li>• Being fully vaccinated including boosters before arrival;
+    <li>• Getting tested before and during the event.
+  </ul>
+  <br><b>Please do not attend the conference if you feel sick or have been in close contact with someone who has been sick prior to the conference.</b>
+"
+content_4: "Useful links:
+  <ul>
+    <li>• <a href='https://www.salute.gov.it/portale/nuovocoronavirus/homeNuovoCoronavirus.jsp' target='_blank'>Italian Government website dedicated to Covid-19</a>
+    <li>• <a href='https://www.salute.gov.it/portale/nuovocoronavirus/dettaglioContenutiNuovoCoronavirus.jsp?lingua=english&id=5412&area=nuovoCoronavirus&menu=vuoto&tab=1' target='_blank'>Covid-19, Information for travellers - Italian Government</a>
+  </ul>
+"
+content_5: "For more information or questions, please send an email to: "
+content_6: 'This page was freely adapted from <a href="https://tek.phparch.com/" target="_blank">php[tek]</a>''s own policy. Thank you!'
