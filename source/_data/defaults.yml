@@ -23,12 +23,12 @@ conference:
   contact_email: "phpday@grusp.org"
   # these are for the hero section
   title_pre: "Welcome to"
-  title: "phpday 2023"
+  title: "phpday 2025"
   city: "Verona"
-  date: 2023-05-18T09:00+02:00
+  date: 2025-05-15T09:00+02:00
   # Use the next field to override the date in the hero
-  hero_date_text: 18 and 19 May 2023
-  countdown_visible: false
+  hero_date_text: 15 and 16 May 2025
+  countdown_visible: true
   countdown_days: "days"
   countdown_hours: "hours"
   countdown_minutes: "minutes"
@@ -46,20 +46,20 @@ conference:
   update_link_url: "https://shop.grusp.org/product/aida-phpday-elephpant/"
   update_link_label: "Get yours!"
   # "call for papers" component. set the first parameter to true to make it appear in home page, false means hidden
-  cfp_open: false
+  cfp_open: true
   cfp_readmore_label: "Read more"
   cfp_open_label: "Submissions accepted until"
   cfp_open_title: "Call For Papers Now Open!"
-  cfp_deadline: 2023-01-15T23:59+01:00
+  cfp_deadline: 2025-01-11T23:59+01:00
   cfp_register_label: "Apply now"
   cfp_register_aria_label: "Apply now to our Call for Papers"
   # "general information" ("what is it?") component
   geninfo_visible: true
   geninfo_title: "What is it?"
-  geninfo_description: "phpday is the yearly gathering for the European PHP community, since 2003</a>.
-  <br> <br /> The event is international and all sessions will be in English.
-  <br> <br /> 2023 edition is hybrid: it takes place in Verona (Italy) and will also be accessible online. The conference will last 2 days (18th and 19th of May).
-  <br />"
+  geninfo_description: "phpday is the annual gathering for developers, professionals, and PHP enthusiasts, dedicated to sharing insights, expertise, and advancements in web programming. The event offers a mix of technical sessions, hands-on workshops, and networking with industry leaders.
+    <br>&nbsp;<br>Now in its 22nd year, phpday has been held continuously since 2003. The 2025 edition will be hosted in Verona on May 15 & 16.
+    <br>&nbsp;<br>At phpday, attendees can explore the latest trends and best practices in PHP development, enhancing their technical skills and keeping their design and development teams at the forefront of industry innovation.
+    <br>&nbsp;<br>phpday is proudly organized by <a href='https://www.grusp.org' target=_blank>GrUSP</a>!"
   geninfo_about_label: "About"
   geninfo_coc_label: "Code of conduct"
   geninfo_scholarships_label: "Scholarships"
@@ -90,7 +90,7 @@ conference:
   newsletter_legal_url: "https://mailchimp.com/legal/"
   newsletter_legal_label: "Information about Mailchimp's privacy policy"
   # "speakers" component. set the first parameter to true to make it appear in home page, false means hidden
-  speakers_visible: true
+  speakers_visible: false
   speakers_title: "speaker"
   mcs_title: "MC"
   speaker_count_text: "Speaker lineup"
@@ -118,17 +118,17 @@ conference:
   media_visible: true
   media_pic_1: "phpday1.png"
   media_pic_2: "phpday2.png"
-  media_pic_3: "phpday3.png"
-  media_pic_4: "phpday4.png"
+  media_pic_3: "phpday_2024_1.jpg"
+  media_pic_4: "phpday_2024_2.jpg"
   #   playlist: if true, the iframe will be created. if false, it will not
   media_video_playlist: true
   # if `media_video_is_youtube` is `true`, the relevant playlist will be embedded via "media_video_playlist". If it is `false`, the relevant Vimeo channel will be embedded via "media_vimeo_channel"
-  media_video_is_youtube: false
+  media_video_is_youtube: true
   youtube_base_url: "https://www.youtube.com/embed/videoseries?list="
   vimeo_base_url: "https://vimeo.com/album/"
   vimeo_url_suffix: "/embed"
   #   (embed YouTube playlist: prendere l'ID della lista dall'URL, la parte dopo '&list=', e metterla qui sotto)
-  youtube_playlist_id: "PLWK9j6ps_unncENcP_tESG1jRi8-ikAg2"
+  youtube_playlist_id: "PLWK9j6ps_unl6i9BSUGOLpVG868x0j9j_"
   #   (embed Vimeo showcase: prendere l'ID dello showcase e metterla qui sotto)
   vimeo_showcase_id: "9545846"
   # Location section in home page. set the first parameter to true to make it appear in home page, false means hidden
@@ -141,10 +141,10 @@ conference:
   # image credits (l'esempio è per la hero del CSS Day!)
   venue_img_credits: ""
   # Sponsors section in home page. set the first parameter to true to make it appear in home page, false means hidden
-  sponsors_visible: true
+  sponsors_visible: false
   sponsor_title_home: "Sponsors"
   # this is for the Community partners section in home page
-  community_partners: true
+  community_partners: false
   community_partners_title: "Community partners"
   # this is for the Social links block
   social_follow: "Follow us on"
@@ -174,6 +174,8 @@ conference:
     2020: "2020"
     2021: "2021"
     2022: "2022"
+    2023: "2023"
+    2024: "2024"
   past_editions_videos_pre: "Videos from the past editions are available on "
   past_editions_videos_vimeo_label: "Vimeo"
   past_editions_videos_mid: " and "
@@ -199,4 +201,4 @@ conference:
     tag_manager_id: "GTM-56R9R8P"
   # Tito tickets
   tito:
-    event: grusp/phpday-2024
+    event: grusp/phpday-2025

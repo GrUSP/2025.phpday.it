@@ -11,9 +11,9 @@ theme: "grusp_conf"
 # Site / OG
 type: website
 slug: phpday
-edition: 2023
-title: "phpday 2023"
-description: "phpday 2023, International PHP Conference in Italy"
+edition: 2025
+title: "phpday 2025"
+description: "phpday 2025, International PHP Conference in Italy"
 #   separate keywords by comma, no spaces
 keywords: conference,software conference,symfony,laravel,php,tech conference
 author: GrUSP
@@ -36,7 +36,7 @@ breadcrumb:
 # URL
 ## If your site is put in a subdirectory, set url as 'yoursite.com/child' and root as '/child/'
 # TODO actual URL (per site)
-url: https://2023.phpday.it/
+url: https://2025.phpday.it/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:

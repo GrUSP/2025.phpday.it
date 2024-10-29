@@ -6,8 +6,8 @@ language: "en"
 # main menu navigation
 menu:
   welcome: welcome
-  talks_speakers: talks
-  schedule: schedule
+  # talks_speakers: talks
+  # schedule: schedule
   sponsor: sponsor
   # scommentare per generare pagina
   # menu item for workshop
@@ -21,12 +21,12 @@ menu:
 # welcome submenu
 welcome_submenu:
   about: about
-  coc: code of conduct
-  safety: health and safety
-  scholarships: scholarships
+  cfp: call for papers
   where: where
+  # safety: health and safety
+  scholarships: scholarships
   # delete this row to take out of the menu
-  # cfp: call for papers
+  coc: code of conduct
 
 # stylesheets loaded in the <head>
 stylesheets:
