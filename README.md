@@ -700,8 +700,6 @@ Nel footer, alcuni dati (ad es., la data)  vengono ripresi da ciò che abbiamo d
   social_follow: "Follow us on"
   social_fb_url: "https://www.facebook.com/RubyDayIT/"
   social_linkedin_url: "https://www.linkedin.com/company/grusp/"
-  social_twitter_url: "https://twitter.com/rubydayIT"
-  social_vimeo_url: "https://vimeo.com/grusp"
   social_youtube_url: "https://www.youtube.com/channel/UCdWnwC8nz_CCFQrmLBrLCVw"
 ```
 

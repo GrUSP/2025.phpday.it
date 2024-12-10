@@ -150,8 +150,6 @@ conference:
   social_follow: "Follow us on"
   social_fb_url: "https://www.facebook.com/phpday/"
   social_linkedin_url: "https://www.linkedin.com/company/grusp/"
-  social_twitter_url: "https://twitter.com/phpday"
-  social_vimeo_url: "https://vimeo.com/channels/phpday"
   social_youtube_url: "https://www.youtube.com/c/grusp"
   social_instagram_url: "https://www.instagram.com/grusp_/"
   social_mastodon_url: "https://phpc.social/@grusp"
