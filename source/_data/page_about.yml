@@ -8,18 +8,35 @@ intro:
     "GrUSP is a non-profit organisation whose aim is to improve a healthier and sustainable web development ecosystem in Italy. We organise affordable, high-quality events and workshops for developers and promote the creation of local user groups (PUG), helping them in their activities. <br>
     Diversity and inclusion have always been at the heart of our initiative. We have been applying a code of conduct for many years, and we have scholarship programs for each of our conferences."
 more:
-  title: "phpday"
+  title: "The GrUSP Conferences"
   content_1:
-    "phpday is the main conference in Italy that is dedicated solely to PHP and its ecosystem.
-    <br><br  />"
+    "<p>We organize plenty of tech conferences in Italy, involving both Italian and international professionals. The topics we cover range from web development languages and frameworks (Angular, React, Symfony, PHP, JavaScript, Ruby, etc.) to DevOps and security technologies, and also web design-related topics (UX and CSS). We also organize Product Management Day, the first Italian conference dedicated to product management.<br>&nbsp;<br>
+    These are unique events, combining workshops, technical talks, and important networking opportunities. During our conferences, attendees have the chance to connect with top professionals, exchange innovative ideas, and discover the latest industry trends. Every year, more than 6,000 people participate in our events!</p>
+    <p>Here is the list of our conferences:<br>
+    <li><a href='https://dxday.it/' target=_blank><font color=white>dxday - the developer experience conference</font></a>
+    <li><a href='https://incontrodevops.it/' target=_blank><font color=white>Incontro DevOps Italia</font></a>
+    <li><a href='https://cssday.it/' target=_blank><font color=white>cssday</font></a>
+    <li><a href='https://jsday.it/' target=_blank><font color=white>jsday</font></a>
+    <li><a href='https://phpday.it/' target=_blank><font color=white>phpday</font></a>
+    <li><a href='https://rubyday.it/' target=_blank><font color=white>rubyday</font></a>
+    <li><a href='https://uxday.it/' target=_blank><font color=white>uxday</font></a>
+    <li><a href='https://containerday.it/' target=_blank><font color=white>containerday</font></a>
+    <li><a href='https://devsecopsday.it/' target=_blank><font color=white>devsecopsday</font></a>
+    <li><a href='https://bettersoftware.it/' target=_blank><font color=white>Better Software</font></a>
+    <li><a href='https://reactjsday.it/' target=_blank><font color=white>reactjsday</font></a>
+    <li><a href='https://laravelday.it/' target=_blank><font color=white>laravelday</font></a>
+    <li><a href='https://angularday.it/' target=_blank><font color=white>angularday</font></a>
+    <li><a href='https://www.productmanagementday.com/' target=_blank><font color=white>Product Management Day</font></a>
+    </p>
+    Additionally, <strong>we are constantly looking for new speakers and topics!</strong> Check out our <a href='https://www.grusp.org/en/speakers/' target=_blank><font color=white>[Call for Papers page]</font></a> and apply to become one of our next speakers!"
   content_2:
 past_edition:
   title: "Browse past editions of phpday"
-  video_url: "https://vimeo.com/showcase/9545846/embed"
-  video_caption: "Watch the videos from the past editions"
+  video_url: "https://www.youtube.com/embed/videoseries?si=DgkDFr7r16CnUUOs&amp;list=PLWK9j6ps_unnFmRfwrxhDwZoIDpuEi70g&si=x7gP0v--cQPTSeHW"
+  video_caption: "Watch the videos of the last edition"
 team:
   title: "Our team"
-  intro: ""
+  intro: "We are a dynamic team of passionate individuals, blending diverse expertise in technology, creative arts, and community management. Our unique combination of skills allows us to innovate and connect effectively, driving forward our mission with enthusiasm and excellence."
   members:
     member_1:
       name: "Matteo Beccati"
@@ -53,10 +70,6 @@ team:
       name: "Daniel Londero"
       role: "GrUSP Board Member"
       pic_filename: "daniel_yellow.jpg"
-    member_9:
-      name: "Francesco Mancin"
-      role: "Regia e Video"
-      pic_filename: "francesco_yellow.jpg"
     member_10:
       name: "Giulia Tosato"
       role: "Event Manager"

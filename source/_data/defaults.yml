@@ -33,7 +33,7 @@ conference:
   countdown_hours: "hours"
   countdown_minutes: "minutes"
   countdown_seconds: "seconds"
-  ticket_button_visible: false
+  ticket_button_visible: true
   hero_buy_tickets_label: "Buy tickets now"
   # image credits (l'esempio è per la hero del CSS Day!)
   # hero_img_credits: "Image by Gianni Careddu - Own work, <a href='https://commons.wikimedia.org/w/index.php?curid=74821344 target='_blank' rel='noopener noreferrer'>CC BY-SA 4.0</a>"
@@ -49,7 +49,7 @@ conference:
   cfp_open: true
   cfp_readmore_label: "Read more"
   cfp_open_label: "Submissions accepted until"
-  cfp_open_title: "Call For Papers Now Open!"
+  cfp_open_title: "Call For Papers is closing soon!"
   cfp_deadline: 2025-01-11T23:59+01:00
   cfp_register_label: "Apply now"
   cfp_register_aria_label: "Apply now to our Call for Papers"
@@ -128,7 +128,7 @@ conference:
   vimeo_base_url: "https://vimeo.com/album/"
   vimeo_url_suffix: "/embed"
   #   (embed YouTube playlist: prendere l'ID della lista dall'URL, la parte dopo '&list=', e metterla qui sotto)
-  youtube_playlist_id: "PLWK9j6ps_unl6i9BSUGOLpVG868x0j9j_"
+  youtube_playlist_id: "PLWK9j6ps_unnFmRfwrxhDwZoIDpuEi70g&si=x7gP0v--cQPTSeHW"
   #   (embed Vimeo showcase: prendere l'ID dello showcase e metterla qui sotto)
   vimeo_showcase_id: "9545846"
   # Location section in home page. set the first parameter to true to make it appear in home page, false means hidden
@@ -141,10 +141,10 @@ conference:
   # image credits (l'esempio è per la hero del CSS Day!)
   venue_img_credits: ""
   # Sponsors section in home page. set the first parameter to true to make it appear in home page, false means hidden
-  sponsors_visible: false
+  sponsors_visible: true
   sponsor_title_home: "Sponsors"
   # this is for the Community partners section in home page
-  community_partners: false
+  community_partners: true
   community_partners_title: "Community partners"
   # this is for the Social links block
   social_follow: "Follow us on"

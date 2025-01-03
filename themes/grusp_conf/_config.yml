@@ -6,6 +6,7 @@ language: "en"
 # main menu navigation
 menu:
   welcome: welcome
+  welcome/cfp.html: call for papers
   # talks_speakers: talks
   # schedule: schedule
   sponsor: sponsor
