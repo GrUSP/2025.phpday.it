@@ -1,16 +1,31 @@
 intro:
-  slogan_1: "Is your activity connected with PHP?"
-  slogan_2: "Do you want to participate in the making of phpday?"
-  content_1: "Great idea! You will contribute to the success of an event that is unique in Italy and will receive a remarkable visibility."
-  content_2: "Diversity sponsorships will support the GrUSP Diversity and Inclusion Fund, which lets us run the Scholarship Programs and funds discounted and free tickets for people from underrepresented and/or marginalised groups in tech, and anybody who would otherwise be unable to attend without financial assistance."
+  slogan_1: "For those engaged with PHP, this is your chance to contribute to the success of phpday while seizing a valuable opportunity."
+  slogan_2: "Why sponsor phpday?"
+  content_1: "phpday is proudly organized by <a href='https://www.grusp.org' target=_blank>GrUSP</a>, an organization with over two decades of experience in promoting excellence in web development. Established in 2003, GrUSP initially focused on PHP but has since evolved into Italy’s leading advocate for best practices in web development. Our mission is to enhance the Italian web development ecosystem by fostering skill development and creating opportunities through collaboration and knowledge sharing.<br>&nbsp;<br>
+              <b>What sets GrUSP apart?</b>
+              <ul>
+                <li><b>- 21 Years of Expertise:</b> Since 2003, we have been organizing international tech conferences, consistently delivering high-quality events.</li>
+                <li><b>- Targeted Audience::</b> 90% of our attendees are mid-level to senior professionals, ensuring you connect with a highly experienced audience.</li>
+                <li><b>- Brand Visibility:</b> Enhance your brand's presence and connect directly with your target market.</li>
+                <li><b>- Talent Acquisition:</b> Access a pool of skilled professionals within the community, perfect for recruitment opportunities.</li>
+                <li><b>- Market Leadership:</b> Reinforce your position as a leader in the industry.</li>
+              </ul>
+              "
+  content_2: "<p><b>Diversity sponsorships</b><br>Support our commitment to diversity and inclusion by contributing to the GrUSP Diversity and Inclusion Fund. This fund supports scholarship programs and provides discounted or complimentary tickets to individuals from underrepresented or marginalized groups in tech, as well as those needing financial assistance to attend.</p>
+              <p>For further information, please reach out via email at <b><a href='mailto:phpday@grusp.org'>phpday@grusp.org</a></b></p>"
   content_3: ""
 block_2:
-  title: "Sponsorship options"
-  slogan: "Get the most out of your participation"
-  subtitle_1: "Ideas and suggestions?"
-  content_1: "Please get in touch with us to arrange the options that best suits your needs, or to share a brilliant sponsoring idea."
-  subtitle_2: "Full packages"
-  content_2: "You can choose between one of the following sponsorship packages. <strong> Additional perks are available for main, platinum and gold levels:</strong> get in touch with an email to phpday@grusp.org for additional information."
+  title: "Exclusive Sponsorship Perks"
+  slogan: "Get the most out of your participation!"
+  subtitle_1: "Some of the perks!"
+  content_1: "- take the stage for a talk<br>
+- large in-person booth<br>
+- additional free tickets for your team<br>
+- distribute your own gadgets<br>
+- your logo in all the communications<br>
+…and many more!"
+  subtitle_2: "Do you have a special idea?"
+  content_2: "Ready to elevate your brand by sponsoring one of our exciting events? We’d love to hear your ideas and tailor the perfect partnership for you. Let’s connect and create something amazing together: <b><a href='mailto:phpday@grusp.org'>phpday@grusp.org</a></b>"
 # level description blocks:
 #   If the numbered description is not there, the relevant section will not be displayed
 #   Every block has its own background color based on the block number
@@ -28,22 +43,22 @@ levels:
     vat_label: "(+ VAT 22%)"
     available_slots: 1
     description_1:
-      - "1 dedicated session (30 mins max, no commercial talks accepted)"
-      - "Access to attendees list (attendees who agreed to share their contact with sponsors)"
+      - "30 mins on-stage talk (no commercial talks accepted)"
+      - "Attendees list (who agreed to share their contact)"
     description_2:
-      - "Large Stand (in-person event)"
-      - "Large Virtual booth"
+      - "In person booth - large"
     description_3:
-      - "Your logo on conference rollup banners (in-person event)"
-      - "Your own rollup banner (80x200cm) in the conference room (in-person event)"
-      - "Your logo displayed on rotation in the lower third throughout the event"
+      - "Your logo on conference rollup banners"
+      - "Your own rollup banner at the conference"
+      - "Your logo displayed during streaming video"
     description_4:
-      - "Bring your gadgets to the in-person event"
-      - "Your own digital flyer and/or gadget in digital swag bag"
+      - "Your gadgets/flyers in the swag bag"
+      - "Your banner in the digital swag bag"
     description_5:
-      - "Your logo in pre-event communications"
-      - "Your logo on conference website"
-      - "Your company mentioned and the logo shown during the opening remarks"
+      - "Your logo in pre- and post- conference emails"
+      - "Your logo on the conference website"
+      - "Mention during event opening and closing"
+      - "Mention on social media"
     description_6:
       - "<strong>10</strong> free tickets for the online event"
       - "<strong>5</strong> free tickets for the in-person event"
@@ -55,21 +70,21 @@ levels:
     vat_label: "(+ VAT 22%)"
     available_slots: 2
     description_1:
-      - "Access to attendees list (attendees who agreed to share their contact with sponsors)"
+      - "Attendees list (who agreed to share their contact)"
     description_2:
-      - "Large Stand (in-person event)"
-      - "Medium Virtual booth"
+      - "In person booth - large"
     description_3:
-      - "Your logo on conference rollup banners (in-person event)"
-      - "Your own rollup banner (80x200cm) in the conference room (in-person event)"
-      - "Your logo displayed on rotation in the lower third throughout the event"
+      - "Your logo on conference rollup banners"
+      - "Your own rollup banner at the conference"
+      - "Your logo displayed during streaming video"
     description_4:
-      - "Bring your gadgets to the in-person event"
-      - "Your own digital flyer and/or gadget in digital swag bag"
+      - "Your gadgets/flyers in the swag bag"
+      - "Your banner in the digital swag bag"
     description_5:
-      - "Your logo in pre-event communications"
-      - "Your logo on conference website"
-      - "Your company mentioned and the logo shown during the opening remarks"
+      - "Your logo in pre- and post- conference emails"
+      - "Your logo on the conference website"
+      - "Mention during event opening and closing"
+      - "Mention on social media"
     description_6:
       - "<strong>8</strong> free tickets for the online event"
       - "<strong>4</strong> free tickets for the in-person event"
@@ -80,19 +95,19 @@ levels:
     vat_label: "(+ VAT 22%)"
     available_slots: 4
     description_2:
-      - "Small Stand (in-person event)"
-      - "Small Virtual booth"
+      - "In person booth - medium"
     description_3:
-      - "Your logo on conference rollup banners (in-person event)"
-      - "Your own rollup banner (80x200cm) in the conference room (in-person event)"
-      - "Your logo displayed on rotation in the lower third throughout the event"
+      - "Your logo on conference rollup banners"
+      - "Your own rollup banner at the conference"
+      - "Your logo displayed during streaming video"
     description_4:
-      - "Bring your gadgets to the in-person event"
-      - "Your own digital flyer and/or gadget in digital swag bag"
+      - "Your gadgets/flyers in the swag bag"
+      - "Your banner in the digital swag bag"
     description_5:
-      - "Your logo in pre-event communications"
-      - "Your logo on conference website"
-      - "Your company mentioned and the logo shown during the opening remarks"
+      - "Your logo in pre- and post- conference emails"
+      - "Your logo on the conference website"
+      - "Mention during event opening and closing"
+      - "Mention on social media"
     description_6:
       - "<strong>6</strong> free tickets for the online event"
       - "<strong>3</strong> free tickets for the in-person event"
@@ -102,16 +117,17 @@ levels:
     vat_label: "(+ VAT 22%)"
     available_slots: 8
     description_3:
-      - "Your logo on conference rollup banners (in-person event)"
-      - "Your own rollup banner (80x200cm) in the conference room (in-person event)"
-      - "Your logo displayed on rotation in the lower third throughout the event"
+      - "Your logo on conference rollup banners"
+      - "Your own rollup banner at the conference"
+      - "Your logo displayed during streaming video"
     description_4:
-      - "Bring your gadgets to the in-person event"
-      - "Your own digital flyer and/or gadget in digital swag bag"
+      - "Your gadgets/flyers in the swag bag"
+      - "Your banner in the digital swag bag"
     description_5:
-      - "Your logo in pre-event communications"
-      - "Your logo on conference website"
-      - "Your company mentioned and the logo shown during the opening remarks"
+      - "Your logo in pre- and post- conference emails"
+      - "Your logo on the conference website"
+      - "Mention during event opening and closing"
+      - "Mention on social media"
     description_6:
       - "<strong>5</strong> free tickets for the online event"
       - "<strong>2</strong> free tickets for the in-person event"
@@ -121,15 +137,15 @@ levels:
     vat_label: "(+ VAT 22%)"
     available_slots: 16
     description_3:
-      - "Your logo on conference rollup banners (in-person event)"
-      - "Your logo displayed on rotation in the lower third throughout the event"
+      - "Your logo on conference rollup banners"
     description_4:
-      - "Bring your gadgets to the in-person event"
-      - "Your own digital flyer and/or gadget in digital swag bag"
+      - "Your gadgets/flyers in the swag bag"
+      - "Your banner in the digital swag bag"
     description_5:
-      - "Your logo in pre-event communications"
-      - "Your logo on conference website"
-      - "Your company mentioned and the logo shown during the opening remarks"
+      - "Your logo in pre- and post- conference emails"
+      - "Your logo on the conference website"
+      - "Mention during event opening and closing"
+      - "Mention on social media"
     description_6:
       - "<strong>4</strong> free tickets for the online event"
       - "<strong>1</strong> free tickets for the in-person event"
@@ -139,9 +155,10 @@ levels:
     vat_label: "(+ VAT 22%)"
     available_slots: 32
     description_5:
-      - "Your logo in pre-event communications"
+      - "Your logo in pre- and post- conference emails"
       - "Your logo on conference website"
-      - "Your company mentioned and the logo shown during the opening remarks"
+      - "Mention during event opening and closing"
+      - "Mention on social media"
     description_6:
       - "<strong>2</strong> free tickets for the online event"
   level_7:
@@ -150,8 +167,9 @@ levels:
     vat_label: "(+ VAT 22%)"
     available_slots: 32
     description_5:
-      - "Your logo in pre-event communications"
+      - "Your logo in pre- and post- conference emails"
       - "Your logo on conference website"
-      - "Your company mentioned and the logo shown during the opening remarks"
+      - "Mention during event opening and closing"
+      - "Mention on social media"
     description_6:
       - "<strong>2</strong> free tickets for the online event"
