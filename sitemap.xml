@@ -23,13 +23,6 @@
   </url>
   
   <url>
-    <loc>https://2025.phpday.it/sponsor/index.html</loc>
-    
-    <lastmod>2025-01-03</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://2025.phpday.it/talks_speakers/index.html</loc>
     
     <lastmod>2025-01-03</lastmod>
@@ -37,7 +30,7 @@
   </url>
   
   <url>
-    <loc>https://2025.phpday.it/welcome/index.html</loc>
+    <loc>https://2025.phpday.it/sponsor/index.html</loc>
     
     <lastmod>2025-01-03</lastmod>
     
@@ -58,7 +51,14 @@
   </url>
   
   <url>
-    <loc>https://2025.phpday.it/welcome/scholarships.html</loc>
+    <loc>https://2025.phpday.it/welcome/index.html</loc>
+    
+    <lastmod>2025-01-03</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2025.phpday.it/workshop/workshop_1.html</loc>
     
     <lastmod>2025-01-03</lastmod>
     
@@ -79,7 +79,7 @@
   </url>
   
   <url>
-    <loc>https://2025.phpday.it/welcome/safety.html</loc>
+    <loc>https://2025.phpday.it/welcome/scholarships.html</loc>
     
     <lastmod>2025-01-03</lastmod>
     
@@ -93,7 +93,7 @@
   </url>
   
   <url>
-    <loc>https://2025.phpday.it/workshop/workshop_1.html</loc>
+    <loc>https://2025.phpday.it/welcome/safety.html</loc>
     
     <lastmod>2025-01-03</lastmod>
     
