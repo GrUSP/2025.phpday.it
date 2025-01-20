@@ -23,11 +23,11 @@ gold:
     name: "workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
-# silver:
-#   sponsor4:
-#     name: "Madisoft"
-#     logo_filename: "madisoft.svg"
-#     site_url: "https://labs.madisoft.it"
+silver:
+  sponsor4:
+    name: "Madisoft"
+    logo_filename: "madisoft.svg"
+    site_url: "https://labs.madisoft.it"
 #   sponsor6:
 #     name: "SiteGround"
 #     logo_filename: "siteground.png"
