@@ -15,11 +15,15 @@ sponsors_block_title: "Thanks for supporting the conference!"
 #     logo_filename: ""
 #     site_url: ""
 gold:
-  sponsor0:
+  sponsor1:
     name: "Daruma"
     logo_filename: "daruma.svg"
     site_url: "http://www.darumahq.com/"
-  sponsor1:
+  sponsor2:
+    name: "SparkFabrik"
+    logo_filename: "sparkfabrik.svg"
+    site_url: "https://www.sparkfabrik.com/"
+  sponsor3:
     name: "workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
@@ -32,12 +36,11 @@ silver:
 #     name: "SiteGround"
 #     logo_filename: "siteground.png"
 #     site_url: "https://www.siteground.com/"
-# bronze:
-#   sponsor2:
-#     name: "stickermule"
-#     logo_filename: "stickermule.svg"
-#     site_url: "https://mule.to/p2gc"
-# diversity:
+bronze:
+  sponsor1:
+    name: "PostPickr"
+    logo_filename: "postpickr.svg"
+    site_url: "https://www.postpickr.com/"
 #   sponsor1:
 #     name: "S"
 #     logo_filename: ""
