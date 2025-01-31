@@ -2,13 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://2025.phpday.it/welcome/cfp.html</loc>
-    
-    <lastmod>2025-01-31</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://2025.phpday.it/workshop/workshop_2.html</loc>
     
     <lastmod>2025-01-31</lastmod>
@@ -23,21 +16,21 @@
   </url>
   
   <url>
-    <loc>https://2025.phpday.it/welcome/coc.html</loc>
+    <loc>https://2025.phpday.it/schedule/index.html</loc>
     
     <lastmod>2025-01-31</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2025.phpday.it/welcome/where.html</loc>
+    <loc>https://2025.phpday.it/sponsor/index.html</loc>
     
     <lastmod>2025-01-31</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2025.phpday.it/welcome/scholarships.html</loc>
+    <loc>https://2025.phpday.it/tickets/index.html</loc>
     
     <lastmod>2025-01-31</lastmod>
     
@@ -58,27 +51,6 @@
   </url>
   
   <url>
-    <loc>https://2025.phpday.it/welcome/safety.html</loc>
-    
-    <lastmod>2025-01-31</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2025.phpday.it/welcome/about.html</loc>
-    
-    <lastmod>2025-01-31</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2025.phpday.it/tickets/index.html</loc>
-    
-    <lastmod>2025-01-31</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://2025.phpday.it/talks_speakers/index.html</loc>
     
     <lastmod>2025-01-31</lastmod>
@@ -86,14 +58,42 @@
   </url>
   
   <url>
-    <loc>https://2025.phpday.it/sponsor/index.html</loc>
+    <loc>https://2025.phpday.it/welcome/scholarships.html</loc>
     
     <lastmod>2025-01-31</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2025.phpday.it/schedule/index.html</loc>
+    <loc>https://2025.phpday.it/welcome/cfp.html</loc>
+    
+    <lastmod>2025-01-31</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2025.phpday.it/welcome/safety.html</loc>
+    
+    <lastmod>2025-01-31</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2025.phpday.it/welcome/coc.html</loc>
+    
+    <lastmod>2025-01-31</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2025.phpday.it/welcome/where.html</loc>
+    
+    <lastmod>2025-01-31</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2025.phpday.it/welcome/about.html</loc>
     
     <lastmod>2025-01-31</lastmod>
     
