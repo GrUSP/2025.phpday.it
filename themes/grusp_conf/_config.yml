@@ -6,7 +6,7 @@ language: "en"
 # main menu navigation
 menu:
   welcome: welcome
-  welcome/cfp.html: call for papers
+  # welcome/cfp.html: call for papers
   # talks_speakers: talks
   # schedule: schedule
   sponsor: sponsor
@@ -22,7 +22,7 @@ menu:
 # welcome submenu
 welcome_submenu:
   about: about
-  cfp: call for papers
+  # cfp: call for papers
   where: where
   # safety: health and safety
   scholarships: scholarships
