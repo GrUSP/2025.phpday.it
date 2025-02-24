@@ -2,7 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://2025.phpday.it/welcome/about.html</loc>
+    <loc>https://2025.phpday.it/workshop/workshop_2.html</loc>
+    
+    <lastmod>2025-02-24</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2025.phpday.it/workshop/index.html</loc>
     
     <lastmod>2025-02-24</lastmod>
     
@@ -23,28 +30,14 @@
   </url>
   
   <url>
-    <loc>https://2025.phpday.it/workshop/workshop_2.html</loc>
+    <loc>https://2025.phpday.it/welcome/scholarships.html</loc>
     
     <lastmod>2025-02-24</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2025.phpday.it/talks_speakers/index.html</loc>
-    
-    <lastmod>2025-02-24</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2025.phpday.it/tickets/index.html</loc>
-    
-    <lastmod>2025-02-24</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2025.phpday.it/workshop/index.html</loc>
+    <loc>https://2025.phpday.it/welcome/where.html</loc>
     
     <lastmod>2025-02-24</lastmod>
     
@@ -58,7 +51,14 @@
   </url>
   
   <url>
-    <loc>https://2025.phpday.it/welcome/where.html</loc>
+    <loc>https://2025.phpday.it/welcome/about.html</loc>
+    
+    <lastmod>2025-02-24</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2025.phpday.it/schedule/index.html</loc>
     
     <lastmod>2025-02-24</lastmod>
     
@@ -79,13 +79,6 @@
   </url>
   
   <url>
-    <loc>https://2025.phpday.it/welcome/scholarships.html</loc>
-    
-    <lastmod>2025-02-24</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://2025.phpday.it/sponsor/index.html</loc>
     
     <lastmod>2025-02-24</lastmod>
@@ -93,7 +86,14 @@
   </url>
   
   <url>
-    <loc>https://2025.phpday.it/schedule/index.html</loc>
+    <loc>https://2025.phpday.it/talks_speakers/index.html</loc>
+    
+    <lastmod>2025-02-24</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2025.phpday.it/tickets/index.html</loc>
     
     <lastmod>2025-02-24</lastmod>
     
