@@ -1,15 +1,67 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: true
+generate_schedule_page: false
 schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-speaker_1: &speaker
-  speaker_in_speaker_lists: false
-  speaker_name:
-  speaker_pic_filename: .jpg
-  speaker_role: ""
-  speaker_bio: ""
+speaker_1: &TimoBakx
+  speaker_in_speaker_lists: true
+  speaker_name: Timo Bakx
+  speaker_pic_filename: Timo-Bakx.jpeg
+  speaker_role: "Backend developer"
+  speaker_bio: "PHP developer since 2004, working on API's in Symfony since 2016"
+  speaker_github_url: "https://github.com/TimoBakx"
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/timobakx/"
+  speaker_mastodon_url: "https://phpc.social/@timobakx"
+  is_mc: false
+
+speaker_2: &GinaPeterBanyard
+  speaker_in_speaker_lists: true
+  speaker_name: Gina Peter Banyard
+  speaker_pic_filename: Gina-Peter-Banyard.jpg
+  speaker_role: "PHP Core developer @ The PHP Foundation"
+  speaker_bio: "I'm Gina Peter Banyard I'm a PHP Core dev paid by the PHP Foundation. I also maintain the PHP Documentation and lead translator for the French translation of it."
+  speaker_github_url: "https://github.com/Girgias"
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/girgias/"
+  speaker_mastodon_url: "https://phpc.social/@Girgias"
+  is_mc: false
+
+speaker_3: &FrankBerger
+  speaker_in_speaker_lists: true
+  speaker_name: Frank Berger
+  speaker_pic_filename: Frank-Berger.jpg
+  speaker_role: "Codewrangler @ Sudhaus7"
+  speaker_bio: "Frank started his career in 1996 at Hewlett-Packard, Germany, as a System Administrator for the then newly founded Team ASE-WWW, integrating legacy systems into the then new technology world wide web. Then he started in 2000 to work for Web-agencies as a Software Developer in various PHP and JS frameworks. 2005 he went independent and moved to the Philippines, returning 2008 to Germany and became CTO at the B-Factor GmbH and later at Sudhaus7. His focus stayed with PHP, the Web and TYPO3 as his major platform"
+  speaker_github_url: "https://github.com/foppelfb"
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/frank-berger-6bb04b9/"
+  speaker_mastodon_url: "https://phpc.social/@foppel"
+  is_mc: false
+
+speaker_4: &ArneBlankerts
+  speaker_in_speaker_lists: true
+  speaker_name: Arne Blankerts
+  speaker_pic_filename: Arne-Blankerts.jpg
+  speaker_role: "Co-Founder @ thePHP.cc"
+  speaker_bio: "Arne Blankerts has already dealt with computers when networking was still an adventure. As long-standing head of development of an internet agency, he has created solutions far ahead of the times already years ago. As Co-Founder and Principal Consultant of The PHP Consulting Company (thePHP.cc), Arne helps his clients to develop software successfully. He is author and maintainer of various Open Source development tools, and is a regular presenter at conferences. In his free time he reads fantasy novels and likes to cook."
+  speaker_github_url: "https://github.com/theseer/"
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/theseer/"
+  speaker_mastodon_url: "https://phpc.social/@theseer"
+  is_mc: false
+
+speaker_5: &SimoneDamico
+  speaker_in_speaker_lists: true
+  speaker_name: Simone D'Amico
+  speaker_pic_filename: Simone-DAmico.jpg
+  speaker_role: "Technical Team Leader @ Redokun"
+  speaker_bio: "Technical Team Leader @ Redokun with 15 years of experience in large-scale software development. Dedicated advocate of agile methodologies, Lean Principles, and DevOps culture. Author of Lead Through Mistakes (leadthroughmistakes.com), a newsletter focused on Leadership in the IT sector."
   speaker_github_url: ""
   speaker_twitter_url: ""
   speaker_instagram_url: ""
@@ -17,8 +69,254 @@ speaker_1: &speaker
   speaker_mastodon_url: ""
   is_mc: false
 
+speaker_6: &GrzegorzDrozd
+  speaker_in_speaker_lists: true
+  speaker_name: Grzegorz Drozd
+  speaker_pic_filename: Grzegorz-Drozd.jpg
+  speaker_role: "Lead PHP Developer, Payments team"
+  speaker_bio: "Grzegorz, known as Greg to his international friends and colleagues, is a Senior Developer and Technical Leader with expertise in API development and cloud-based solutions.
+  With nearly two decades of experience in software engineering, Greg has a proven track record of leading technical teams and delivering high-performance web services and APIs. Currently serving as a Lead PHP Developer in the Payment Team at Hostaway, he leverages extensive expertise in PHP, AWS, and relational databases to build scalable, efficient payment systems.
+  A passionate mentor and collaborator, Greg has a history of onboarding new developers, providing internal training, and enhancing team capabilities in modern software practices. He excels at combining technical proficiency with strategic thinking to deliver innovative, reliable, and future-proof solutions."
+  speaker_github_url: ""
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/grzegorzdrozd/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
+speaker_7: &LauraDurieux
+  speaker_in_speaker_lists: true
+  speaker_name: Laura Durieux
+  speaker_pic_filename: Laura-Durieux.png
+  speaker_role: "Web Developer, Twitch Streamer and Speaker"
+  speaker_bio: "Laura Durieux, a passionate developer with over six years of experience, is a graduate of Haute École Albert Jacquard in Web Design and Development. As a freelancer, she creates tools, websites, and consults in the medical field. A two-time gold medalist at WorldSkills Belgium and Medal of Excellence recipient at EuroSkills 2021, she also trained in Tokyo, developing Tabasco Japan's website in 2020. Since 2023, Laura shares her expertise on Twitch, hosted On est pas des iencli on RTBF, and has delivered talks across Europe on tech and women’s contributions to computing history."
+  speaker_github_url: "https://github.com/Lauwed"
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/devgirl/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
+speaker_8: &EdoardoDusi
+  speaker_in_speaker_lists: true
+  speaker_name: Edoardo Dusi
+  speaker_pic_filename: Edoardo-Dusi.png
+  speaker_role: "Senior Developer Relations Engineer"
+  speaker_bio: "Edoardo is a Developer Relations Engineer. He has a strong software developer and team leader background, working on various projects and platforms. He is passionate about creating and sharing content that educates and inspires other developers, such as tech talks, videos, podcasts, conferences, and more. He enjoys connecting with the developer community and promoting the benefits of open source software."
+  speaker_github_url: "https://github.com/edodusi"
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/edoardodusi/"
+  speaker_mastodon_url: "https://hachyderm.io/@edodusi"
+  is_mc: false
+
+speaker_9: &FlorianEngelhardt
+  speaker_in_speaker_lists: true
+  speaker_name: Florian Engelhardt
+  speaker_pic_filename: Florian-Engelhardt.jpg
+  speaker_role: "Software Engineer @ Datadog"
+  speaker_bio: "Florian is married with five kids and he likes to play table tennis 🏓, table football ⚽, chess ♟️, and MTG. He is also a software engineer and builds a PHP profiler at Datadog. He started writing small software on an IBM PS/2 30 286 in GW-BASIC back in 1993, throughout the 90s he learned HTML, JavaScript, Perl, C, and a bit of Assembler. It was September 2000 when he was introduced to PHP and he thought nobody would ever need it, but boy he was wrong. In his spare time (and with five kids you do not have that much of it), he works on various open-source PHP projects and every now and then he writes blog posts and gives talks about anything PHP."
+  speaker_github_url: "https://github.com/realFlowControl"
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/florian-engelhardt/"
+  speaker_mastodon_url: "https://phpc.social/@flowcontrol"
+  is_mc: false
+
+speaker_10: &ThijsFeryn
+  speaker_in_speaker_lists: true
+  speaker_name: Thijs Feryn
+  speaker_pic_filename: Thijs-Feryn.png
+  speaker_role: "Technical Evangelist @ Varnish Software"
+  speaker_bio: "As the Technical Evangelist at Varnish Software, Thijs Feryn focuses on web performance, software scalability, and content delivery. He demonstrates content-driven and technical messaging through presentations, videos, books, blog posts, social media posts, podcasts, and other media. Thijs is a published author and wrote Getting Started with Varnish Cache and Varnish 6 by Example. As a public speaker, he has a track record of over 360 presentations in 25 different countries, where he is often praised for his energetic and engaging presentation style. As an evangelist, Thijs is also active in many open-source communities, most notably the Varnish and PHP community. He has contributed to various communities for over 15 years both technically and as an organizer and facilitator. Prior to joining Varnish Software, Thijs Feryn spent 15 years in the web hosting industry, tackling web performance and scalability issues on a daily basis and evangelizing these topics."
+  speaker_github_url: "https://github.com/thijsferyn"
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://linkedin.com/in/thijsferyn"
+  speaker_mastodon_url: "https://mastodon.social/@thijsferyn"
+  is_mc: false
+
+speaker_11: &MaxwellIvey
+  speaker_in_speaker_lists: true
+  speaker_name: Maxwell Ivey
+  speaker_pic_filename: Maxwell-Ivey.jpg
+  speaker_role: "Digital Accessibility consultant"
+  speaker_bio: "Maxwell, known around the world as the Blind BLogger, transformed himself from a blind failed carnival owner to a respected amusement equipment broker. In the beginning he had to learn so many things including teaching himself to hand code HTML. People were impressed, and asked him to share more about being a blind entrepreneur. He started a second site as The Blind Blogger a nickname people had been using on Linked In. Since then he has written four books, wo of which are award winners. He has traveled the country solo and sung & spoken in front of national conferences. He has been on over 400 podcasts, taught people how to be great interview guests, booked people on shows, and eventually started his own podcast called What's Your Excuse. He recently started the WYE network to help other people with disabilities start new podcasts or grow existing audiences. He believes it's easier for him to answer an awkward question than to make you guess. So, if you have any question for him at all, please just ask."
+  speaker_github_url: ""
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/maxwellivey/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
+speaker_12: &DaveLiddament
+  speaker_in_speaker_lists: true
+  speaker_name: Dave Liddament
+  speaker_pic_filename: Dave-Liddament.jpg
+  speaker_role: "Director and Developer @ Lamp Bristol"
+  speaker_bio: "Dave is a director and developer at Lamp Bristol, a software consultancy. He’s been writing software commercially for over 20 years in many languages including C, Python, Java and PHP. Dave is keen to pass on his knowledge. He speaks at conferences and user groups, and is an organiser of PHP-SW. He is also the author of an open source tool called SARB (static analysis results baseliner) and creator of the PHP Language extension library. When not busy coding Dave enjoys scuba diving and running."
+  speaker_github_url: "https://github.com/DaveLiddament/"
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/daveliddament/"
+  speaker_mastodon_url: "https://phpc.social/@DaveLiddament"
+  is_mc: false
+
+speaker_13: &TobiasNyholm
+  speaker_in_speaker_lists: true
+  speaker_name: Tobias Nyholm
+  speaker_pic_filename: Tobias-Nyholm.jpg
+  speaker_role: "Engineering manager @ Eneba"
+  speaker_bio: "Tobias is an open source enthusiast and has spent many years trying to bring something good to the community. He is a Symfony core team member, Symfon y CARE member and organizer of Swedish PHP meetups."
+  speaker_github_url: "https://github.com/Nyholm"
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/tobiasnyholm/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
+speaker_14: &SuleBalogunOlanrewaju
+  speaker_in_speaker_lists: true
+  speaker_name: Sule-Balogun Olanrewaju
+  speaker_pic_filename: Sule-Balogun-Olanrewaju.jpg
+  speaker_role: "Backend Engineer @ Tillo"
+  speaker_bio: "I'm a Software Engineer at Tillo, recognized as a global talent by the UK government for my skills and contributions in the tech industry. With extensive experience spanning the education, entertainment, fintech, and human resources sectors, I hold a Master's degree in Computer Science. Based in the United Kingdom, I've spoken at conferences such as API World and the API Specification Conference. My expertise lies in API design, documentation, technical writing, and delivering presentations on various technologies."
+  speaker_github_url: ""
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/suleolanrewaju/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
+speaker_15: &RomanPronskiy
+  speaker_in_speaker_lists: true
+  speaker_name: Roman Pronskiy
+  speaker_pic_filename: Roman-Pronskiy.jpg
+  speaker_role: "Executive Director @ The PHP Foundation"
+  speaker_bio: "In 2021, Roman co-founded the PHP Foundation while working at the JetBrains PhpStorm team. Since then Roman oversees the foundation, a non-profit organization that develops the PHP language."
+  speaker_github_url: "https://github.com/pronskiy"
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/pronskiy/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
+speaker_16: &DerickRethans
+  speaker_in_speaker_lists: true
+  speaker_name: Derick Rethans
+  speaker_pic_filename: Derick-Rethans.jpg
+  speaker_role: "Independent contractor"
+  speaker_bio: "Derick Rethans is a PHP internals expert and author of Xdebug. He works as an independent contractor and consultant on PHP extensions and related projects. He works for the PHP Foundation to improve PHP, and continues to contribute to the PHP project in numerous forms (Date/Time Extension, Xdebug, PHP 4.4/7.4 Release Manager, etc). He is a frequent lecturer at conferences, the author of php architect's Guide to Date and Time Programming, and the co-author of PHP 5 Power Programming."
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: ""
+  speaker_mastodon_url: "https://phpc.social/@derickr"
+  is_mc: false
+
+speaker_17: &MichelleSanver
+  speaker_in_speaker_lists: true
+  speaker_name: Michelle Sanver
+  speaker_pic_filename: Michelle-Sanver.jpg
+  speaker_role: "Senior software architect @ Liip"
+  speaker_bio: "Michelle Sanver works as a senior software developer and architect at Liip. A self organised Swiss web agency. Michelle loves anything community related and is a big advocate of Open Source. She is a code- passionate colourful geek with an expertise in backend development API's and the Symfony framework. With more than 20 years of PHP experience she is eager to share her extensive knowledge."
+  speaker_github_url: ""
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: ""
+  speaker_mastodon_url: ""
+  is_mc: false
+
+speaker_18: &JamesSeconde
+  speaker_in_speaker_lists: true
+  speaker_name: James Seconde
+  speaker_pic_filename: James-Seconde.jpg
+  speaker_role: "Developer Relations @ Vonage"
+  speaker_bio: "A trained actor with a curious background: from Theatre Studies, to Q/A, to Business Intelligence development, to full stack web development, I am the resident specialist PHP Developer Advocate at Global Cloud Communications giant Vonage. I founded Birmingham, UK's current PHP usergroup BrumPHP, as well as being on the Fusion Meetup team. I mentor, write and speak on PHP, Javascript, DevOps, DevRel and tech culture. I pretended to be a DJ on the way."
+  speaker_github_url: "https://github.com/SecondeJK"
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/secondej/"
+  speaker_mastodon_url: "https://phpc.social/@SecondeJ"
+  is_mc: false
+
+speaker_19: &AnneJuliaSeitz
+  speaker_in_speaker_lists: true
+  speaker_name: Anne-Julia Seitz
+  speaker_pic_filename: Anne-Julia-Seitz.png
+  speaker_role: "Software developer @ QOSSMIC"
+  speaker_bio: "My name is Anne-Julia Seitz, and I am a software developer with over 15 years of experience primarily in the PHP world. I have been working with Symfony since version 1.2 and have remained passionate about it ever since. In 2021, I joined QOSSMIC, where I continue to thrive in the world of software development. I'm also actively involved in the tech community in Berlin, where I organize the Symfony User Group, bringing together like-minded professionals to share knowledge and insights."
+  speaker_github_url: ""
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/anne-julia-seitz-1666547/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
+speaker_20: &GiorgioSironi
+  speaker_in_speaker_lists: true
+  speaker_name: Giorgio Sironi
+  speaker_pic_filename: Giorgio-Sironi.jpg
+  speaker_role: "Tech Lead Manager @ eLife Sciences"
+  speaker_bio: "I search for the harmony between form and context, which is a fancy way of saying I build software to fit in the world I'm in and all the forces around it. Over the years, I moved into leading teams on technology and processes."
+  speaker_github_url: "https://github.com/giorgiosironi"
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/giorgiosironi/"
+  speaker_mastodon_url: "https://qoto.org/@giorgiosironi"
+  is_mc: false
+
+speaker_21: &JamesTitcumb
+  speaker_in_speaker_lists: true
+  speaker_name: James Titcumb
+  speaker_pic_filename: James-Titcumb.jpg
+  speaker_role: "Consultant and Developer @ Roave"
+  speaker_bio: "James is a consultant, trainer and developer at Roave, working in software for over 20 years. His goal is to improve the quality of software products that teams deliver."
+  speaker_github_url: "https://github.com/asgrim"
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://uk.linkedin.com/in/jamestitcumb"
+  speaker_mastodon_url: "https://phpc.social/@asgrim"
+  is_mc: false
+
+speaker_22: &KhushbooVerma
+  speaker_in_speaker_lists: true
+  speaker_name: Khushboo Verma
+  speaker_pic_filename: Khushboo-Verma.jpg
+  speaker_role: "Platform Engineer @ Appwrite"
+  speaker_bio: "Khushboo is a passionate software engineer who enjoys technical challenges. She is a Docker Captain and loves scaling distributed systems and contributing to technical communities. She currently works at an open-source BaaS startup and has held positions at Microsoft and Adobe in the past. She loves giving back to the community and has delivered talks at 100+ events including PyCon Japan 2024, GHC 2024 and FOSSASIA Summit 2024. In her free time, you can find her reading about system design case studies, attending technical conferences or creating content for her online community."
+  speaker_github_url: "https://github.com/vermakhushboo"
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/verma-khushboo"
+  speaker_mastodon_url: ""
+  is_mc: false
+
+
+
+
 speakers:
-  speaker_1: *speaker
+  speaker_1: *TimoBakx
+  speaker_2: *GinaPeterBanyard
+  speaker_3: *FrankBerger
+  speaker_4: *ArneBlankerts
+  speaker_5: *SimoneDamico
+  speaker_6: *GrzegorzDrozd
+  speaker_7: *LauraDurieux
+  speaker_8: *EdoardoDusi
+  speaker_9: *FlorianEngelhardt
+  speaker_10: *ThijsFeryn
+  speaker_11: *MaxwellIvey
+  speaker_12: *DaveLiddament
+  speaker_13: *TobiasNyholm
+  speaker_14: *SuleBalogunOlanrewaju
+  speaker_15: *RomanPronskiy
+  speaker_16: *DerickRethans
+  speaker_17: *MichelleSanver
+  speaker_18: *JamesSeconde
+  speaker_19: *AnneJuliaSeitz
+  speaker_20: *GiorgioSironi
+  speaker_21: *JamesTitcumb
+  speaker_22: *KhushbooVerma
 
 tracks:
   track_1: &track_1
@@ -75,23 +373,256 @@ days:
         service_icon: "glass"
 
       # talk
-      keynote:
-        item_type: "keynote"
-        track: *track_1
-        start_datetime: 2022-05-19T09:30+02:00
-        end_datetime: 2022-05-19T10:25+02:00
-        talk_title: ""
-        talk_description: ""
-        talk_video_url:
-        speakers:
-          speaker_1: *speaker
-      titolotalk1:
+      Testing-APIs-written-in-PHP-using-the-Behat-feature-testing-tool:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2022-05-19T10:25+02:00
-        end_datetime: 2022-05-19T11:05+02:00
-        talk_title: ""
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "Testing APIs written in PHP using the Behat feature testing tool"
+        talk_description: "Manually testing your own API endpoints using PostMan or an equivalent tool takes a lot of time. Testing them through unit tests will only test a part of our application, and often skips network and framework configuration.
+        Using Behat, we can write tests in Gherkin and execute these on an actual webserver and database.
+        After attending this talk, I hope that attendees will be able to:
+        <ul>
+        - Implement Behat into their own projects.
+        - Write functional tests in Gherkin.
+        - Setup state for these tests.
+        - Verify test results from response bodies and database state.
+        </ul>"
+        talk_video_url:
+        speakers:
+          speaker_1: *TimoBakx
+
+
+      PHP-Particularly-Horrible-Programs:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "PHP: Particularly Horrible Programs"
+        talk_description: "PHP may be a reliable tool, but do you truly know PHP? In this fun talk we will explore PHP’s quirks, utterly baffling behaviours, and things that are technically feasible but that should never be done."
+        talk_video_url:
+        speakers:
+          speaker_1: *GinaPeterBanyard
+
+      Introduction-to-ReactPHP-and-Websockets:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Introduction to ReactPHP and Websockets"
+        talk_description: "I will show how to build a simple chat client with real live coding in vanilla Javascript and ReactPHP as server and explain the basic concepts behind the process, how to communicate through Websockets, and the possibilities to deploy it on a Webserver."
+        talk_video_url:
+        speakers:
+          speaker_1: *FrankBerger
+
+      Hands-On-SBOM:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Hands-On SBOM: Creating and Managing SBOMs for PHP Application Containers"
+        talk_description: "In today’s software ecosystem, understanding and managing dependencies is essential for security and transparency. This hands-on session provides a brief introduction to Software Bill of Materials (SBOMs) before diving straight into practical application: We will generate an SBOM for a PHP application container! While doing so, we'll recursively create SBOMs for our dependencies, merge multiple SBOMs, and review the final results.
+        This session focuses on practical learning, showcasing a variety of tools in action to equip attendees with actionable skills for real-world projects."
+        talk_video_url:
+        speakers:
+          speaker_1: *ArneBlankerts
+
+      Rethinking-Server-Side-Rendering-in-Modern-PHP-Applications:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Rethinking Server-Side Rendering in Modern PHP Applications"
+        talk_description: "Server-Side Rendering (SSR) is making a comeback, offering a balanced approach between performance, simplicity, and modern user experience. In this talk, we’ll explore how SSR is evolving in the PHP ecosystem, focusing on practical tools like Laravel Livewire and Symfony UX. We’ll dive into real-world examples to show how you can build dynamic, reactive interfaces while leveraging PHP's strengths. Discover the benefits, trade-offs, and ideal use cases of this approach to craft applications that are fast, maintainable, and delightful to use—all without a full client-side framework. Whether you're a Laravel or Symfony enthusiast, or simply curious about modern SSR techniques, this talk will provide valuable insights for your next project."
+        talk_video_url:
+        speakers:
+          speaker_1: *SimoneDamico
+
+      OpenTelemetry-with PHP-is-easier-than-you-think:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "OpenTelemetry with PHP is easier than you think!"
+        talk_description: "Do you want to know what your app did last summer? Introducing OpenTelemetry - the ultimate toolkit for tracing, metrics, and logs. We’ll kick off with a super-short history lesson (no snoozing, I promise!) and then jump straight into how-to's and juicy demos that showcase the magic of real-time observability.
+        You’ll learn how to leverage automated tools to streamline setup, and discover the best OpenTelemetry clients and distributions. Whether you’re new to observability or looking to sharpen your skills, this session will leave you inspired, equipped, and maybe even laughing. Let’s make debugging fun again—see you there!"
+        talk_video_url:
+        speakers:
+          speaker_1: *GrzegorzDrozd
+
+      Integrating-generative-AI-into-API-Platform-Good-idea:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Integrating generative AI into API Platform: Good idea?"
+        talk_description: "This conference will not praise generative AI but rather focus on how to integrate and leverage these technologies, as well as the tools available. As a bonus, we will explore whether machine learning in PHP is feasible and what its limitations are. A thought-provoking discussion on the challenges and opportunities in this field."
+        talk_video_url:
+        speakers:
+          speaker_1: *LauraDurieux
+
+      Open-Source-from Revolution-to-Evolution:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Open Source: from Revolution to Evolution - a software industry metamorphosis"
+        talk_description: "From the ideological battles between Free Software and Open Source, through the rise of developer-driven innovation, to today's complex landscape of cloud services and licensing wars, Open Source has been both a movement and a business model. This talk looks at its past, examines its present challenges, and projects its future evolution. We will go through its birth and divergence, its 'Golden Age' of 'Open Source by default', the challenges posed by the Cloud, and the current present situation. In conclusion, we will try to predict the next decade. What will replace Open Source?"
+        talk_video_url:
+        speakers:
+          speaker_1: *EdoardoDusi
+
+      Processing-One-Billion-Rows-in-PHP:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Processing One Billion Rows in PHP"
+        talk_description: "The 1brc is 'a fun exploration of how quickly 1B rows from a text file can be aggregated with Java', but let's face it, we should be able to do this in PHP too, right? Join me and let's see how fast we can actually aggregate 1B rows in PHP and learn about optimising the performance of PHP software along the way."
+        talk_video_url:
+        speakers:
+          speaker_1: *FlorianEngelhardt
+
+
+      10-things-that-helped-me-advance-my-career:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "10 things that helped me advance my career"
+        talk_description: "There are no secret tricks or shortcuts to leveling up in your career: talent and hard work are still the main recipes for success. But in terms of mindset, there are some things that can make a difference. And while I don’t claim to know all the answers, I’d like to share 10 tips that helped me in my career. In this keynote I’ll cover topics like passion, expression, communication, perception, patience, empathy, risk & creativity. While the title makes it look like a Buzzfeed-style article, these 10 tips & tricks are a guideline in a series of stories I’ll share with you. Take from it what you want. No success guaranteed though. And no refunds! 😉"
+        talk_video_url:
+        speakers:
+          speaker_1: *ThijsFeryn
+
+      Why-should-you-care-about-creating-accessible-inclusive-content:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Why should you care about creating accessible inclusive content"
         talk_description: ""
         talk_video_url:
         speakers:
-          speaker_1: *speaker
+          speaker_1: *MaxwellIvey
+
+      Custom-PHPStan-Rules-Automate-Standards-and-Save-Time:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Custom PHPStan Rules: Automate Standards and Save Time"
+        talk_description: "PHPStan is best known for its ability to catch bugs, but did you know it can do so much more? By creating custom PHPStan rules you can enforce your project-specific coding standards, automate tedious review tasks, and ensure a consistent codebase - all without manual intervention. This talk will guide you through step by step the process of creating a custom PHPStan rule. By the end of the talk, you'll have the knowledge and confidence to craft your own PHPStan rules, helping your team reduce bugs, save time, and focus on what matters most: writing great code."
+        talk_video_url:
+        speakers:
+          speaker_1: *DaveLiddament
+
+      Building-Really-Fast-Applications:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Building Really Fast Applications"
+        talk_description: "Let us talk about performance. What can we do to make an application run faster? What should we be considering when starting a new application? There are some quick fixes that I will quickly cover. But to get down to really fast response times requires hard work. I will give my best ideas and tricks for fast apps. I will show how we can build applications that responds in less that 15ms and then work towards even faster than that."
+        talk_video_url:
+        speakers:
+          speaker_1: *TobiasNyholm
+
+      Securing-PHP-Applications-with-Zero-Trust-Principles:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Securing PHP Applications with Zero Trust Principles"
+        talk_description: "Learn how Zero Trust principles can secure your PHP applications against unauthorized access and threats. We’ll cover core concepts like 'Never trust, always verify,' least privilege, and continuous monitoring, along with practical steps such as using OAuth2, MFA, RBAC, JWTs, and encryption. Discover how these strategies help mitigate risks like SQL injection, XSS, and unauthorized API access while strengthening your app's defenses with proactive security measures and robust monitoring."
+        talk_video_url:
+        speakers:
+          speaker_1: *SuleBalogunOlanrewaju
+
+      The-PHP-Foundation-Three-Years-After:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "The PHP Foundation: Three Years After"
+        talk_description: "Wow. Can you believe it? Just three years ago, PHP had no organization behind it. Only two people were being paid to work on the language that powers 70% of the web. In 2025, we have a team of 10 talented engineers dedicated to PHP. We’re supported by major companies, governments, and an incredible community. In this talk, I will share the most exciting developments within PHP that are supported by the foundation. We'll explore the future possibilities for PHP in various directions."
+        talk_video_url:
+        speakers:
+          speaker_1: *RomanPronskiy
+
+      Whats-new-in-PHP-8.4:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "What's new in PHP 8.4 (and 8.5)"
+        talk_description: "During this presentation, we are going to look at the new features that are going to be introduced in PHP 8.4. Join me to have a look at Property Hooks, Asynchronous Visibility, Improved HTML5 parsing, and many other features. At the end you will have a good understanding about all the new and exciting features that are part of the PHP 8.4 release. We will also have a look at potential upcoming features in PHP 8.5."
+        talk_video_url:
+        speakers:
+          speaker_1: *DerickRethans
+
+      Advanced-Serializing-in-PHP:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Advanced Serializing in PHP: Speed it up!"
+        talk_description: "Building an API for the biggest retailer of Switzerland had some interesting challenges. We had extremely complex data not meant for a digital age. The API bottleneck was and probably always will be; serializing. It was a long journey for us to get the most performance out of this. We tried every serialization in PHP known to man, and in the end... We are proud of what we’ve accomplished and I want to share the journey and deep dive into serialization with you all. And in the end: A colleague wrote php-to-go so that we could GO beyond PHP, using PHP and GoLang together, for an amazing performance boost."
+        talk_video_url:
+        speakers:
+          speaker_1: *MichelleSanver
+
+      CLIs-Arent-As-Easy-As-You-Might-Think:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "CLI's Aren't As Easy As You Might Think"
+        talk_description: "It's built in the muscle memory - you do the same commands over and over each day as part of your job. Apart from the inevitable 'docker composer' (every. time.), actually _designing_ a command line tool is probably quite simple, right? It depends. But mostly, no, it's not easy, because we've had to make one. And making CLIs for thousands of other developers to use every day takes a lot of thought in it's design. In this session, we're going to look at the art of the CLI."
+        talk_video_url:
+        speakers:
+          speaker_1: *JamesSeconde
+
+      Running-PHP-Applications-in-a-Multi-Process-Container:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Running PHP-Applications in a Multi-Process Container"
+        talk_description: "The deployment scenario for PHP looks a little different than for other languages like Go or Ruby that have embedded webservers. The classic stack of Nginx + php-fpm doesn’t perfectly fit in the container world. Some solution providers, like DigitalOcean or certain Azure products, only allow for single containers to be deployed. In this talk, we’ll explore ways other people have solved this, like FrankenPHP, supervisord and wrapping all in bash scripts. We’ll talk about the benefits and downsides of these solutions, compare them with the choice we made for our last project, s6-overlay, show off the s6-cli project I developed for this purpose and talk about recipes for running database migrations, cronjobs and a few more."
+        talk_video_url:
+        speakers:
+          speaker_1: *AnneJuliaSeitz
+
+      An-ensembling-approach-to-making-legacy-code-habitable:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "An ensembling approach to making legacy code habitable"
+        talk_description: "It's the beginning of a new quarter and your team has just inherited ownership of an existing product. However, knowledge of the system is spread around, or has been lost: most of your colleagues have never written a PHPUnit test before, or even worked in this programming language. How do you go from not knowing how to approach a task to being confident about making new deployments? From being a knowledge silo to being able to set the the team loose to work on a new feature? Learn from the case study of a gelled team facing a new challenge by working together on the same thing, at the same time, in the same space, and at the same computer: ensemble programming."
+        talk_video_url:
+        speakers:
+          speaker_1: *GiorgioSironi
+
+      A-slice-of-PIE-revolutionising-PHP-extension-installation:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "🥧 A slice of PIE: revolutionising PHP extension installation"
+        talk_description: "PHP Installer for Extensions (PIE) is an innovative tool under development by the PHP Foundation to modernise how PHP extensions are installed and managed. For decades, PECL has been the go-to mechanism, but it's time for a change. In this talk, we’ll explore why PIE is poised to replace PECL, its goals, and what makes it a game-changer for PHP developers. We'll dive into PIE's features, demo its usage, and provide a glimpse of its roadmap, including exciting enhancements already in the works. Whether you're a seasoned developer or new to PHP extensions, discover how PIE is shaping the future of PHP extension installation."
+        talk_video_url:
+        speakers:
+          speaker_1: *JamesTitcumb
+
+      Async-PHP-with-Coroutines-Building-Scalable-Applications:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Async PHP with Coroutines: Building Scalable Applications"
+        talk_description: "Scalability in PHP applications is no longer limited by the traditional request-response model. In this talk, we’ll explore how coroutines bring true asynchronous capabilities to PHP, allowing you to handle multiple tasks concurrently without the overhead of multithreading. We’ll dive into coroutine fundamentals, demonstrate practical examples using libraries like Swoole, and highlight real-world scenarios where asynchronous programming can boost performance. Whether you’re building high-traffic APIs, real-time chat applications, or microservices, you’ll learn how coroutines make PHP a powerful tool for scaling your applications efficiently."
+        talk_video_url:
+        speakers:
+          speaker_1: *KhushbooVerma
