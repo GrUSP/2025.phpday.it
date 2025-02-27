@@ -20,10 +20,14 @@ gold:
     logo_filename: "daruma.svg"
     site_url: "http://www.darumahq.com/"
   sponsor2:
+    name: "KanbanBox"
+    logo_filename: "kanbanbox.svg"
+    site_url: "https://www.kanbanbox.com/"
+  sponsor3:
     name: "SparkFabrik"
     logo_filename: "sparkfabrik.svg"
     site_url: "https://www.sparkfabrik.com/"
-  sponsor3:
+  sponsor4:
     name: "workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
