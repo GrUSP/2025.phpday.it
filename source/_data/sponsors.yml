@@ -48,6 +48,10 @@ silver:
     name: "storyblok"
     logo_filename: "storyblok.svg"
     site_url: "https://www.storyblok.com/lp/developers"
+  sponsor5:
+    name: "switcho"
+    logo_filename: "switcho.svg"
+    site_url: "https://www.switcho.it/"
 bronze:
   sponsor1:
     name: "PostPickr"
