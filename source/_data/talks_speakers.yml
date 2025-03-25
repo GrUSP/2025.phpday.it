@@ -256,7 +256,7 @@ speaker_20: &GiorgioSironi
   speaker_in_speaker_lists: true
   speaker_name: Giorgio Sironi
   speaker_pic_filename: Giorgio-Sironi.jpg
-  speaker_role: "Tech Lead Manager @ eLife Sciences"
+  speaker_role: "Tech Lead"
   speaker_bio: "I search for the harmony between form and context, which is a fancy way of saying I build software to fit in the world I'm in and all the forces around it. Over the years, I moved into leading teams on technology and processes."
   speaker_github_url: "https://github.com/giorgiosironi"
   speaker_twitter_url: ""
