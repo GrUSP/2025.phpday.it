@@ -65,7 +65,7 @@ speaker_5: &SimoneDamico
   speaker_github_url: ""
   speaker_twitter_url: ""
   speaker_instagram_url: ""
-  speaker_linkedin_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/simonedamico/"
   speaker_mastodon_url: ""
   is_mc: false
 
