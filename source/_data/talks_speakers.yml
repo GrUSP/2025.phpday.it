@@ -136,17 +136,17 @@ speaker_10: &ThijsFeryn
   speaker_mastodon_url: "https://mastodon.social/@thijsferyn"
   is_mc: false
 
-speaker_11: &MaxwellIvey
+speaker_11: &SaraGolemon
   speaker_in_speaker_lists: true
-  speaker_name: Maxwell Ivey
-  speaker_pic_filename: Maxwell-Ivey.jpg
-  speaker_role: "Digital Accessibility consultant"
-  speaker_bio: "Maxwell, known around the world as the Blind BLogger, transformed himself from a blind failed carnival owner to a respected amusement equipment broker. In the beginning he had to learn so many things including teaching himself to hand code HTML. People were impressed, and asked him to share more about being a blind entrepreneur. He started a second site as The Blind Blogger a nickname people had been using on Linked In. Since then he has written four books, wo of which are award winners. He has traveled the country solo and sung & spoken in front of national conferences. He has been on over 400 podcasts, taught people how to be great interview guests, booked people on shows, and eventually started his own podcast called What's Your Excuse. He recently started the WYE network to help other people with disabilities start new podcasts or grow existing audiences. He believes it's easier for him to answer an awkward question than to make you guess. So, if you have any question for him at all, please just ask."
-  speaker_github_url: ""
+  speaker_name: Sara Golemon
+  speaker_pic_filename: Sara-Golemon.png
+  speaker_role: "Founding Board Member @ The PHP Foundation"
+  speaker_bio: "Sara is a long-time contributor to the PHP language, a member of the PHP Foundation board, and release manager for PHP 8.0."
+  speaker_github_url: "https://github.com/sgolemon"
   speaker_twitter_url: ""
   speaker_instagram_url: ""
-  speaker_linkedin_url: "https://www.linkedin.com/in/maxwellivey/"
-  speaker_mastodon_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/pollita/"
+  speaker_mastodon_url: "https://phpc.social/deck/@pollita"
   is_mc: false
 
 speaker_12: &DaveLiddament
@@ -305,7 +305,7 @@ speakers:
   speaker_8: *EdoardoDusi
   speaker_9: *FlorianEngelhardt
   speaker_10: *ThijsFeryn
-  speaker_11: *MaxwellIvey
+  speaker_11: *SaraGolemon
   speaker_12: *DaveLiddament
   speaker_13: *TobiasNyholm
   speaker_14: *SuleBalogunOlanrewaju
@@ -495,16 +495,16 @@ days:
         speakers:
           speaker_1: *ThijsFeryn
 
-      Why-should-you-care-about-creating-accessible-inclusive-content:
+      How-to-write-extensions:
         item_type: "talk"
         track: *track_1
         # start_datetime: 2022-05-19T10:25+02:00
         # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Why should you care about creating accessible inclusive content"
-        talk_description: ""
+        talk_title: "How to write extensions"
+        talk_description: "This fast-paced lecture will cover every step necessary to write the most common 'glue' type of PHP extension buildable for PHP 7 or 8. We'll explore real-world code wrapping the GMP library around a modern interface, and you'll have access to a working repo of the entire exercise available via github."
         talk_video_url:
         speakers:
-          speaker_1: *MaxwellIvey
+          speaker_1: *SaraGolemon
 
       Custom-PHPStan-Rules-Automate-Standards-and-Save-Time:
         item_type: "talk"
