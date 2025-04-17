@@ -8,7 +8,7 @@ menu:
   welcome: welcome
   # welcome/cfp.html: call for papers
   talks_speakers: talks
-  # schedule: schedule
+  schedule: schedule
   sponsor: sponsor
   # scommentare per generare pagina
   # menu item for workshop

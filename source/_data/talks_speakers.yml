@@ -1,5 +1,5 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: false
+generate_schedule_page: true
 schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
@@ -336,9 +336,9 @@ tracks:
   track_1: &track_1
     id: 1
     title: "Track 1"
-#  track_2: &track_2
-#    id: 2
-#    title: "Track 2"
+  track_2: &track_2
+    id: 2
+    title: "Track 2"
 #  track_3: &track_3
 #    id: 3
 #    title: "Track 3 - fake track"
@@ -353,59 +353,310 @@ tracks:
 
 days:
   day_1:
-    date: 2021-06-08T09:45+02:00
+    date: 2025-05-15T09:30+02:00
     title: "Day 1"
+    talks:
+    # service
+      check-in:
+        item_type: "service"
+        start_datetime: 2025-05-15T08:45+02:00
+        end_datetime: 2025-05-15T09:30+02:00
+        talk_title: "⭐️ Check-in: collect your badge"
+      opening:
+        item_type: "service"
+        start_datetime: 2025-05-15T09:30+02:00
+        end_datetime: 2025-05-15T09:45+02:00
+        talk_title: "👋 Opening by GrUSP"
+      closing:
+        item_type: "service"
+        start_datetime: 2025-05-15T18:00+02:00
+        end_datetime: 2025-05-15T18:10+02:00
+        talk_title: "👋 See you tomorrow!"
+      coffee-morning:
+        item_type: "service"
+        start_datetime: 2025-05-15T10:30+02:00
+        end_datetime: 2025-05-15T11:00+02:00
+        talk_title: "☕️ Coffee break"
+        service_icon: "coffee"
+      coffee-afternoon:
+        item_type: "service"
+        start_datetime: 2025-05-15T16:20+02:00
+        end_datetime: 2025-05-15T16:50+02:00
+        talk_title: "☕️ Coffee break"
+        service_icon: "coffee"
+      lunch:
+        item_type: "service"
+        start_datetime: 2025-05-15T12:50+02:00
+        end_datetime: 2025-05-15T14:10+02:00
+        talk_title: "🍝 Lunch break"
+        service_icon: "cutlery"
+      lightning:
+        item_type: "service"
+        start_datetime: 2025-05-15T14:10+02:00
+        end_datetime: 2025-05-15T14:30+02:00
+        talk_title: "⚡️ Lightning Talks"
+        service_icon: "bolt"
+
+      # talk
+
+      The-PHP-Foundation-Three-Years-After:
+        item_type: "keynote"
+        track: *track_1
+        start_datetime: 2025-05-15T09:45+02:00
+        end_datetime: 2025-05-15T10:30+02:00
+        talk_title: "The PHP Foundation: Three Years After"
+        talk_description: "Wow. Can you believe it? Just three years ago, PHP had no organization behind it. Only two people were being paid to work on the language that powers 70% of the web. In 2025, we have a team of 10 talented engineers dedicated to PHP. We’re supported by major companies, governments, and an incredible community. In this talk, I will share the most exciting developments within PHP that are supported by the foundation. We'll explore the future possibilities for PHP in various directions."
+        talk_video_url:
+        speakers:
+          speaker_1: *RomanPronskiy
+
+      Whats-new-in-PHP-8.4:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2025-05-15T11:00+02:00
+        end_datetime: 2025-05-15T11:55+02:00
+        talk_title: "What's new in PHP 8.4 (and 8.5)"
+        talk_description: "During this presentation, we are going to look at the new features that are going to be introduced in PHP 8.4. Join me to have a look at Property Hooks, Asynchronous Visibility, Improved HTML5 parsing, and many other features. At the end you will have a good understanding about all the new and exciting features that are part of the PHP 8.4 release. We will also have a look at potential upcoming features in PHP 8.5."
+        talk_video_url:
+        speakers:
+          speaker_1: *DerickRethans
+
+      Rethinking-Server-Side-Rendering-in-Modern-PHP-Applications:
+        item_type: "talk"
+        track: *track_2
+        start_datetime: 2025-05-15T11:00+02:00
+        end_datetime: 2025-05-15T11:55+02:00
+        talk_title: "Rethinking Server-Side Rendering in Modern PHP Applications"
+        talk_description: "Server-Side Rendering (SSR) is making a comeback, offering a balanced approach between performance, simplicity, and modern user experience. In this talk, we’ll explore how SSR is evolving in the PHP ecosystem, focusing on practical tools like Laravel Livewire and Symfony UX. We’ll dive into real-world examples to show how you can build dynamic, reactive interfaces while leveraging PHP's strengths. Discover the benefits, trade-offs, and ideal use cases of this approach to craft applications that are fast, maintainable, and delightful to use—all without a full client-side framework. Whether you're a Laravel or Symfony enthusiast, or simply curious about modern SSR techniques, this talk will provide valuable insights for your next project."
+        talk_video_url:
+        speakers:
+          speaker_1: *SimoneDamico
+
+      Building-Really-Fast-Applications:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2025-05-15T11:55+02:00
+        end_datetime: 2025-05-15T12:50+02:00
+        talk_title: "Building Really Fast Applications"
+        talk_description: "Let us talk about performance. What can we do to make an application run faster? What should we be considering when starting a new application? There are some quick fixes that I will quickly cover. But to get down to really fast response times requires hard work. I will give my best ideas and tricks for fast apps. I will show how we can build applications that responds in less that 15ms and then work towards even faster than that."
+        talk_video_url:
+        speakers:
+          speaker_1: *TobiasNyholm
+
+      CLIs-Arent-As-Easy-As-You-Might-Think:
+        item_type: "talk"
+        track: *track_2
+        start_datetime: 2025-05-15T11:55+02:00
+        end_datetime: 2025-05-15T12:50+02:00
+        talk_title: "CLI's Aren't As Easy As You Might Think"
+        talk_description: "It's built in the muscle memory - you do the same commands over and over each day as part of your job. Apart from the inevitable 'docker composer' (every. time.), actually _designing_ a command line tool is probably quite simple, right? It depends. But mostly, no, it's not easy, because we've had to make one. And making CLIs for thousands of other developers to use every day takes a lot of thought in it's design. In this session, we're going to look at the art of the CLI."
+        talk_video_url:
+        speakers:
+          speaker_1: *JamesSeconde
+
+      Processing-One-Billion-Rows-in-PHP:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2025-05-15T14:30+02:00
+        end_datetime: 2025-05-15T15:25+02:00
+        talk_title: "Processing One Billion Rows in PHP"
+        talk_description: "The 1brc is 'a fun exploration of how quickly 1B rows from a text file can be aggregated with Java', but let's face it, we should be able to do this in PHP too, right? Join me and let's see how fast we can actually aggregate 1B rows in PHP and learn about optimising the performance of PHP software along the way."
+        talk_video_url:
+        speakers:
+          speaker_1: *FlorianEngelhardt
+
+
+      OpenTelemetry-with PHP-is-easier-than-you-think:
+        item_type: "talk"
+        track: *track_2
+        start_datetime: 2025-05-15T14:30+02:00
+        end_datetime: 2025-05-15T15:25+02:00
+        talk_title: "OpenTelemetry with PHP is easier than you think!"
+        talk_description: "Do you want to know what your app did last summer? Introducing OpenTelemetry - the ultimate toolkit for tracing, metrics, and logs. We’ll kick off with a super-short history lesson (no snoozing, I promise!) and then jump straight into how-to's and juicy demos that showcase the magic of real-time observability.
+        You’ll learn how to leverage automated tools to streamline setup, and discover the best OpenTelemetry clients and distributions. Whether you’re new to observability or looking to sharpen your skills, this session will leave you inspired, equipped, and maybe even laughing. Let’s make debugging fun again—see you there!"
+        talk_video_url:
+        speakers:
+          speaker_1: *GrzegorzDrozd
+
+      Integrating-generative-AI-into-API-Platform-Good-idea:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2025-05-15T15:25+02:00
+        end_datetime: 2025-05-15T16:20+02:00
+        talk_title: "Integrating generative AI into API Platform: Good idea?"
+        talk_description: "This conference will not praise generative AI but rather focus on how to integrate and leverage these technologies, as well as the tools available. As a bonus, we will explore whether machine learning in PHP is feasible and what its limitations are. A thought-provoking discussion on the challenges and opportunities in this field."
+        talk_video_url:
+        speakers:
+          speaker_1: *LauraDurieux
+
+      Custom-PHPStan-Rules-Automate-Standards-and-Save-Time:
+        item_type: "talk"
+        track: *track_2
+        start_datetime: 2025-05-15T15:25+02:00
+        end_datetime: 2025-05-15T16:20+02:00
+        talk_title: "Custom PHPStan Rules: Automate Standards and Save Time"
+        talk_description: "PHPStan is best known for its ability to catch bugs, but did you know it can do so much more? By creating custom PHPStan rules you can enforce your project-specific coding standards, automate tedious review tasks, and ensure a consistent codebase - all without manual intervention. This talk will guide you through step by step the process of creating a custom PHPStan rule. By the end of the talk, you'll have the knowledge and confidence to craft your own PHPStan rules, helping your team reduce bugs, save time, and focus on what matters most: writing great code."
+        talk_video_url:
+        speakers:
+          speaker_1: *DaveLiddament
+
+      An-ensembling-approach-to-making-legacy-code-habitable:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2025-05-15T16:50+02:00
+        end_datetime: 2025-05-15T17:25+02:00
+        talk_title: "An ensembling approach to making legacy code habitable"
+        talk_description: "It's the beginning of a new quarter and your team has just inherited ownership of an existing product. However, knowledge of the system is spread around, or has been lost: most of your colleagues have never written a PHPUnit test before, or even worked in this programming language. How do you go from not knowing how to approach a task to being confident about making new deployments? From being a knowledge silo to being able to set the the team loose to work on a new feature? Learn from the case study of a gelled team facing a new challenge by working together on the same thing, at the same time, in the same space, and at the same computer: ensemble programming."
+        talk_video_url:
+        speakers:
+          speaker_1: *GiorgioSironi
+
+      Running-PHP-Applications-in-a-Multi-Process-Container:
+        item_type: "talk"
+        track: *track_2
+        start_datetime: 2025-05-15T16:50+02:00
+        end_datetime: 2025-05-15T17:25+02:00
+        talk_title: "Running PHP-Applications in a Multi-Process Container"
+        talk_description: "The deployment scenario for PHP looks a little different than for other languages like Go or Ruby that have embedded webservers. The classic stack of Nginx + php-fpm doesn’t perfectly fit in the container world. Some solution providers, like DigitalOcean or certain Azure products, only allow for single containers to be deployed. In this talk, we’ll explore ways other people have solved this, like FrankenPHP, supervisord and wrapping all in bash scripts. We’ll talk about the benefits and downsides of these solutions, compare them with the choice we made for our last project, s6-overlay, show off the s6-cli project I developed for this purpose and talk about recipes for running database migrations, cronjobs and a few more."
+        talk_video_url:
+        speakers:
+          speaker_1: *AnneJuliaSeitz
+
+      Async-PHP-with-Coroutines-Building-Scalable-Applications:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2025-05-15T17:25+02:00
+        end_datetime: 2025-05-15T18:00+02:00
+        talk_title: "Async PHP with Coroutines: Building Scalable Applications"
+        talk_description: "Scalability in PHP applications is no longer limited by the traditional request-response model. In this talk, we’ll explore how coroutines bring true asynchronous capabilities to PHP, allowing you to handle multiple tasks concurrently without the overhead of multithreading. We’ll dive into coroutine fundamentals, demonstrate practical examples using libraries like Swoole, and highlight real-world scenarios where asynchronous programming can boost performance. Whether you’re building high-traffic APIs, real-time chat applications, or microservices, you’ll learn how coroutines make PHP a powerful tool for scaling your applications efficiently."
+        talk_video_url:
+        speakers:
+          speaker_1: *KhushbooVerma
+
+      Securing-PHP-Applications-with-Zero-Trust-Principles:
+        item_type: "talk"
+        track: *track_2
+        start_datetime: 2025-05-15T17:25+02:00
+        end_datetime: 2025-05-15T18:00+02:00
+        talk_title: "Securing PHP Applications with Zero Trust Principles"
+        talk_description: "Learn how Zero Trust principles can secure your PHP applications against unauthorized access and threats. We’ll cover core concepts like 'Never trust, always verify,' least privilege, and continuous monitoring, along with practical steps such as using OAuth2, MFA, RBAC, JWTs, and encryption. Discover how these strategies help mitigate risks like SQL injection, XSS, and unauthorized API access while strengthening your app's defenses with proactive security measures and robust monitoring."
+        talk_video_url:
+        speakers:
+          speaker_1: *SuleBalogunOlanrewaju
+
+  day_2:
+    date: 2025-05-16T09:30+02:00
+    title: "Day 2"
     talks:
     # service
       opening:
         item_type: "service"
-        start_datetime: 2021-06-08T09:45+02:00
-        end_datetime: 2021-06-08T10:00+02:00
-        talk_title: "Opening by GrUSP"
+        start_datetime: 2025-05-16T09:30+02:00
+        end_datetime: 2025-05-16T09:45+02:00
+        talk_title: "👋 Opening by GrUSP"
       closing:
         item_type: "service"
-        start_datetime: 2021-06-08T17:45+02:00
-        end_datetime: 2021-06-08T18:00+02:00
-        talk_title: "See you tomorrow!"
+        start_datetime: 2025-05-16T17:15+02:00
+        end_datetime: 2025-05-16T17:30+02:00
+        talk_title: "👋 Closing by GrUSP"
       coffee-morning:
         item_type: "service"
-        start_datetime: 2021-06-08T11:00+02:00
-        end_datetime: 2021-06-08T11:15+02:00
-        talk_title: "Coffee break"
+        start_datetime: 2025-05-16T10:30+02:00
+        end_datetime: 2025-05-16T11:00+02:00
+        talk_title: "☕️ Coffee break"
         service_icon: "coffee"
       coffee-afternoon:
         item_type: "service"
-        start_datetime: 2022-05-19T13:00+02:00
-        end_datetime: 2022-05-19T14:30+02:00
-        talk_title: "Lunch break"
-        service_icon: "cutlery"
-      happy-hour:
+        start_datetime: 2025-05-16T16:00+02:00
+        end_datetime: 2025-05-16T16:30+02:00
+        talk_title: "☕️ Coffee break"
+        service_icon: "coffee"
+      lunch:
         item_type: "service"
-        start_datetime: 2022-05-19T18:25+02:00
-        end_datetime: 2022-05-19T19:30+02:00
-        talk_title: "Happy Hour"
-        service_icon: "glass"
+        start_datetime: 2025-05-16T12:50+02:00
+        end_datetime: 2025-05-16T14:10+02:00
+        talk_title: "🍝 Lunch break"
+        service_icon: "cutlery"
+      lightning:
+        item_type: "service"
+        start_datetime: 2025-05-16T14:10+02:00
+        end_datetime: 2025-05-16T14:30+02:00
+        talk_title: "⚡️ Lightning Talks"
+        service_icon: "bolt"
 
-      # talk
-      OAuth-2.1-The-Future-of-API-Security:
-        item_type: "talk"
+      Open-Source-from Revolution-to-Evolution:
+        item_type: "keynote"
         track: *track_1
-        # start_datetime: 2022-05-19T09:30+02:00
-        # end_datetime: 2022-05-19T10:25+02:00
-        talk_title: "OAuth 2.1: The Future of API Security"
-        talk_description: "OAuth 2 is the gold standard for authentication in APIs and is currently being updated to version 2.1. In this talk we'll dive into how it works and what's different from OAuth 2.0. OAuth 2.1 consolidates and simplifies OAuth 2.0 along with bringing the best practices that have evolved since 2.0's release into the main standard. I'll discuss how the Authorization grant type has evolved with PKCE to make it the best for nearly all clients, and also cover the best practices to use today in order to secure your API. By the end of this session, you'll be well prepared for the future of API security.
-        </ul>"
+        start_datetime: 2025-05-16T09:45+02:00
+        end_datetime: 2025-05-16T10:30+02:00
+        talk_title: "Open Source: from Revolution to Evolution - a software industry metamorphosis"
+        talk_description: "From the ideological battles between Free Software and Open Source, through the rise of developer-driven innovation, to today's complex landscape of cloud services and licensing wars, Open Source has been both a movement and a business model. This talk looks at its past, examines its present challenges, and projects its future evolution. We will go through its birth and divergence, its 'Golden Age' of 'Open Source by default', the challenges posed by the Cloud, and the current present situation. In conclusion, we will try to predict the next decade. What will replace Open Source?"
         talk_video_url:
         speakers:
-          speaker_1: *RobAllen
+          speaker_1: *EdoardoDusi
+
+      How-to-write-extensions:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2025-05-16T11:00+02:00
+        end_datetime: 2025-05-16T11:55+02:00
+        talk_title: "How to write extensions"
+        talk_description: "This fast-paced lecture will cover every step necessary to write the most common 'glue' type of PHP extension buildable for PHP 7 or 8. We'll explore real-world code wrapping the GMP library around a modern interface, and you'll have access to a working repo of the entire exercise available via github."
+        talk_video_url:
+        speakers:
+          speaker_1: *SaraGolemon
+
+      Hands-On-SBOM:
+        item_type: "talk"
+        track: *track_2
+        start_datetime: 2025-05-16T11:00+02:00
+        end_datetime: 2025-05-16T11:55+02:00
+        talk_title: "Hands-On SBOM: Creating and Managing SBOMs for PHP Application Containers"
+        talk_description: "In today’s software ecosystem, understanding and managing dependencies is essential for security and transparency. This hands-on session provides a brief introduction to Software Bill of Materials (SBOMs) before diving straight into practical application: We will generate an SBOM for a PHP application container! While doing so, we'll recursively create SBOMs for our dependencies, merge multiple SBOMs, and review the final results.
+        This session focuses on practical learning, showcasing a variety of tools in action to equip attendees with actionable skills for real-world projects."
+        talk_video_url:
+        speakers:
+          speaker_1: *ArneBlankerts
 
 
+      A-slice-of-PIE-revolutionising-PHP-extension-installation:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2025-05-16T11:55+02:00
+        end_datetime: 2025-05-16T12:50+02:00
+        talk_title: "🥧 A slice of PIE: revolutionising PHP extension installation"
+        talk_description: "PHP Installer for Extensions (PIE) is an innovative tool under development by the PHP Foundation to modernise how PHP extensions are installed and managed. For decades, PECL has been the go-to mechanism, but it's time for a change. In this talk, we’ll explore why PIE is poised to replace PECL, its goals, and what makes it a game-changer for PHP developers. We'll dive into PIE's features, demo its usage, and provide a glimpse of its roadmap, including exciting enhancements already in the works. Whether you're a seasoned developer or new to PHP extensions, discover how PIE is shaping the future of PHP extension installation."
+        talk_video_url:
+        speakers:
+          speaker_1: *JamesTitcumb
+
+      Introduction-to-ReactPHP-and-Websockets:
+        item_type: "talk"
+        track: *track_2
+        start_datetime: 2025-05-16T11:55+02:00
+        end_datetime: 2025-05-16T12:50+02:00
+        talk_title: "Introduction to ReactPHP and Websockets"
+        talk_description: "I will show how to build a simple chat client with real live coding in vanilla Javascript and ReactPHP as server and explain the basic concepts behind the process, how to communicate through Websockets, and the possibilities to deploy it on a Webserver."
+        talk_video_url:
+        speakers:
+          speaker_1: *FrankBerger
+
+      PHP-Particularly-Horrible-Programs:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2025-05-16T14:30+02:00
+        end_datetime: 2025-05-16T15:25+02:00
+        talk_title: "PHP: Particularly Horrible Programs"
+        talk_description: "PHP may be a reliable tool, but do you truly know PHP? In this fun talk we will explore PHP’s quirks, utterly baffling behaviours, and things that are technically feasible but that should never be done."
+        talk_video_url:
+        speakers:
+          speaker_1: *GinaPeterBanyard
 
       Testing-APIs-written-in-PHP-using-the-Behat-feature-testing-tool:
         item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T09:30+02:00
-        # end_datetime: 2022-05-19T10:25+02:00
+        track: *track_2
+        start_datetime: 2025-05-16T14:30+02:00
+        end_datetime: 2025-05-16T15:25+02:00
         talk_title: "Testing APIs written in PHP using the Behat feature testing tool"
         talk_description: "Manually testing your own API endpoints using PostMan or an equivalent tool takes a lot of time. Testing them through unit tests will only test a part of our application, and often skips network and framework configuration.
         Using Behat, we can write tests in Gherkin and execute these on an actual webserver and database.
@@ -420,237 +671,43 @@ days:
         speakers:
           speaker_1: *TimoBakx
 
-
-      PHP-Particularly-Horrible-Programs:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "PHP: Particularly Horrible Programs"
-        talk_description: "PHP may be a reliable tool, but do you truly know PHP? In this fun talk we will explore PHP’s quirks, utterly baffling behaviours, and things that are technically feasible but that should never be done."
-        talk_video_url:
-        speakers:
-          speaker_1: *GinaPeterBanyard
-
-      Introduction-to-ReactPHP-and-Websockets:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Introduction to ReactPHP and Websockets"
-        talk_description: "I will show how to build a simple chat client with real live coding in vanilla Javascript and ReactPHP as server and explain the basic concepts behind the process, how to communicate through Websockets, and the possibilities to deploy it on a Webserver."
-        talk_video_url:
-        speakers:
-          speaker_1: *FrankBerger
-
-      Hands-On-SBOM:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Hands-On SBOM: Creating and Managing SBOMs for PHP Application Containers"
-        talk_description: "In today’s software ecosystem, understanding and managing dependencies is essential for security and transparency. This hands-on session provides a brief introduction to Software Bill of Materials (SBOMs) before diving straight into practical application: We will generate an SBOM for a PHP application container! While doing so, we'll recursively create SBOMs for our dependencies, merge multiple SBOMs, and review the final results.
-        This session focuses on practical learning, showcasing a variety of tools in action to equip attendees with actionable skills for real-world projects."
-        talk_video_url:
-        speakers:
-          speaker_1: *ArneBlankerts
-
-      Rethinking-Server-Side-Rendering-in-Modern-PHP-Applications:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Rethinking Server-Side Rendering in Modern PHP Applications"
-        talk_description: "Server-Side Rendering (SSR) is making a comeback, offering a balanced approach between performance, simplicity, and modern user experience. In this talk, we’ll explore how SSR is evolving in the PHP ecosystem, focusing on practical tools like Laravel Livewire and Symfony UX. We’ll dive into real-world examples to show how you can build dynamic, reactive interfaces while leveraging PHP's strengths. Discover the benefits, trade-offs, and ideal use cases of this approach to craft applications that are fast, maintainable, and delightful to use—all without a full client-side framework. Whether you're a Laravel or Symfony enthusiast, or simply curious about modern SSR techniques, this talk will provide valuable insights for your next project."
-        talk_video_url:
-        speakers:
-          speaker_1: *SimoneDamico
-
-      OpenTelemetry-with PHP-is-easier-than-you-think:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "OpenTelemetry with PHP is easier than you think!"
-        talk_description: "Do you want to know what your app did last summer? Introducing OpenTelemetry - the ultimate toolkit for tracing, metrics, and logs. We’ll kick off with a super-short history lesson (no snoozing, I promise!) and then jump straight into how-to's and juicy demos that showcase the magic of real-time observability.
-        You’ll learn how to leverage automated tools to streamline setup, and discover the best OpenTelemetry clients and distributions. Whether you’re new to observability or looking to sharpen your skills, this session will leave you inspired, equipped, and maybe even laughing. Let’s make debugging fun again—see you there!"
-        talk_video_url:
-        speakers:
-          speaker_1: *GrzegorzDrozd
-
-      Integrating-generative-AI-into-API-Platform-Good-idea:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Integrating generative AI into API Platform: Good idea?"
-        talk_description: "This conference will not praise generative AI but rather focus on how to integrate and leverage these technologies, as well as the tools available. As a bonus, we will explore whether machine learning in PHP is feasible and what its limitations are. A thought-provoking discussion on the challenges and opportunities in this field."
-        talk_video_url:
-        speakers:
-          speaker_1: *LauraDurieux
-
-      Open-Source-from Revolution-to-Evolution:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Open Source: from Revolution to Evolution - a software industry metamorphosis"
-        talk_description: "From the ideological battles between Free Software and Open Source, through the rise of developer-driven innovation, to today's complex landscape of cloud services and licensing wars, Open Source has been both a movement and a business model. This talk looks at its past, examines its present challenges, and projects its future evolution. We will go through its birth and divergence, its 'Golden Age' of 'Open Source by default', the challenges posed by the Cloud, and the current present situation. In conclusion, we will try to predict the next decade. What will replace Open Source?"
-        talk_video_url:
-        speakers:
-          speaker_1: *EdoardoDusi
-
-      Processing-One-Billion-Rows-in-PHP:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Processing One Billion Rows in PHP"
-        talk_description: "The 1brc is 'a fun exploration of how quickly 1B rows from a text file can be aggregated with Java', but let's face it, we should be able to do this in PHP too, right? Join me and let's see how fast we can actually aggregate 1B rows in PHP and learn about optimising the performance of PHP software along the way."
-        talk_video_url:
-        speakers:
-          speaker_1: *FlorianEngelhardt
-
-
-      10-things-that-helped-me-advance-my-career:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "10 things that helped me advance my career"
-        talk_description: "There are no secret tricks or shortcuts to leveling up in your career: talent and hard work are still the main recipes for success. But in terms of mindset, there are some things that can make a difference. And while I don’t claim to know all the answers, I’d like to share 10 tips that helped me in my career. In this keynote I’ll cover topics like passion, expression, communication, perception, patience, empathy, risk & creativity. While the title makes it look like a Buzzfeed-style article, these 10 tips & tricks are a guideline in a series of stories I’ll share with you. Take from it what you want. No success guaranteed though. And no refunds! 😉"
-        talk_video_url:
-        speakers:
-          speaker_1: *ThijsFeryn
-
-      How-to-write-extensions:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "How to write extensions"
-        talk_description: "This fast-paced lecture will cover every step necessary to write the most common 'glue' type of PHP extension buildable for PHP 7 or 8. We'll explore real-world code wrapping the GMP library around a modern interface, and you'll have access to a working repo of the entire exercise available via github."
-        talk_video_url:
-        speakers:
-          speaker_1: *SaraGolemon
-
-      Custom-PHPStan-Rules-Automate-Standards-and-Save-Time:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Custom PHPStan Rules: Automate Standards and Save Time"
-        talk_description: "PHPStan is best known for its ability to catch bugs, but did you know it can do so much more? By creating custom PHPStan rules you can enforce your project-specific coding standards, automate tedious review tasks, and ensure a consistent codebase - all without manual intervention. This talk will guide you through step by step the process of creating a custom PHPStan rule. By the end of the talk, you'll have the knowledge and confidence to craft your own PHPStan rules, helping your team reduce bugs, save time, and focus on what matters most: writing great code."
-        talk_video_url:
-        speakers:
-          speaker_1: *DaveLiddament
-
-      Building-Really-Fast-Applications:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Building Really Fast Applications"
-        talk_description: "Let us talk about performance. What can we do to make an application run faster? What should we be considering when starting a new application? There are some quick fixes that I will quickly cover. But to get down to really fast response times requires hard work. I will give my best ideas and tricks for fast apps. I will show how we can build applications that responds in less that 15ms and then work towards even faster than that."
-        talk_video_url:
-        speakers:
-          speaker_1: *TobiasNyholm
-
-      Securing-PHP-Applications-with-Zero-Trust-Principles:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Securing PHP Applications with Zero Trust Principles"
-        talk_description: "Learn how Zero Trust principles can secure your PHP applications against unauthorized access and threats. We’ll cover core concepts like 'Never trust, always verify,' least privilege, and continuous monitoring, along with practical steps such as using OAuth2, MFA, RBAC, JWTs, and encryption. Discover how these strategies help mitigate risks like SQL injection, XSS, and unauthorized API access while strengthening your app's defenses with proactive security measures and robust monitoring."
-        talk_video_url:
-        speakers:
-          speaker_1: *SuleBalogunOlanrewaju
-
-      The-PHP-Foundation-Three-Years-After:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "The PHP Foundation: Three Years After"
-        talk_description: "Wow. Can you believe it? Just three years ago, PHP had no organization behind it. Only two people were being paid to work on the language that powers 70% of the web. In 2025, we have a team of 10 talented engineers dedicated to PHP. We’re supported by major companies, governments, and an incredible community. In this talk, I will share the most exciting developments within PHP that are supported by the foundation. We'll explore the future possibilities for PHP in various directions."
-        talk_video_url:
-        speakers:
-          speaker_1: *RomanPronskiy
-
-      Whats-new-in-PHP-8.4:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "What's new in PHP 8.4 (and 8.5)"
-        talk_description: "During this presentation, we are going to look at the new features that are going to be introduced in PHP 8.4. Join me to have a look at Property Hooks, Asynchronous Visibility, Improved HTML5 parsing, and many other features. At the end you will have a good understanding about all the new and exciting features that are part of the PHP 8.4 release. We will also have a look at potential upcoming features in PHP 8.5."
-        talk_video_url:
-        speakers:
-          speaker_1: *DerickRethans
-
       Advanced-Serializing-in-PHP:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
+        start_datetime: 2025-05-16T15:25+02:00
+        end_datetime: 2025-05-16T16:00+02:00
         talk_title: "Advanced Serializing in PHP: Speed it up!"
         talk_description: "Building an API for the biggest retailer of Switzerland had some interesting challenges. We had extremely complex data not meant for a digital age. The API bottleneck was and probably always will be; serializing. It was a long journey for us to get the most performance out of this. We tried every serialization in PHP known to man, and in the end... We are proud of what we’ve accomplished and I want to share the journey and deep dive into serialization with you all. And in the end: A colleague wrote php-to-go so that we could GO beyond PHP, using PHP and GoLang together, for an amazing performance boost."
         talk_video_url:
         speakers:
           speaker_1: *MichelleSanver
 
-      CLIs-Arent-As-Easy-As-You-Might-Think:
+      OAuth-2.1-The-Future-of-API-Security:
         item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "CLI's Aren't As Easy As You Might Think"
-        talk_description: "It's built in the muscle memory - you do the same commands over and over each day as part of your job. Apart from the inevitable 'docker composer' (every. time.), actually _designing_ a command line tool is probably quite simple, right? It depends. But mostly, no, it's not easy, because we've had to make one. And making CLIs for thousands of other developers to use every day takes a lot of thought in it's design. In this session, we're going to look at the art of the CLI."
+        track: *track_2
+        start_datetime: 2025-05-16T15:25+02:00
+        end_datetime: 2025-05-16T16:00+02:00
+        talk_title: "OAuth 2.1: The Future of API Security"
+        talk_description: "OAuth 2 is the gold standard for authentication in APIs and is currently being updated to version 2.1. In this talk we'll dive into how it works and what's different from OAuth 2.0. OAuth 2.1 consolidates and simplifies OAuth 2.0 along with bringing the best practices that have evolved since 2.0's release into the main standard. I'll discuss how the Authorization grant type has evolved with PKCE to make it the best for nearly all clients, and also cover the best practices to use today in order to secure your API. By the end of this session, you'll be well prepared for the future of API security.
+        </ul>"
         talk_video_url:
         speakers:
-          speaker_1: *JamesSeconde
+          speaker_1: *RobAllen
 
-      Running-PHP-Applications-in-a-Multi-Process-Container:
-        item_type: "talk"
+      10-things-that-helped-me-advance-my-career:
+        item_type: "keynote"
         track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Running PHP-Applications in a Multi-Process Container"
-        talk_description: "The deployment scenario for PHP looks a little different than for other languages like Go or Ruby that have embedded webservers. The classic stack of Nginx + php-fpm doesn’t perfectly fit in the container world. Some solution providers, like DigitalOcean or certain Azure products, only allow for single containers to be deployed. In this talk, we’ll explore ways other people have solved this, like FrankenPHP, supervisord and wrapping all in bash scripts. We’ll talk about the benefits and downsides of these solutions, compare them with the choice we made for our last project, s6-overlay, show off the s6-cli project I developed for this purpose and talk about recipes for running database migrations, cronjobs and a few more."
+        start_datetime: 2025-05-16T16:30+02:00
+        end_datetime: 2025-05-16T17:15+02:00
+        talk_title: "10 things that helped me advance my career"
+        talk_description: "There are no secret tricks or shortcuts to leveling up in your career: talent and hard work are still the main recipes for success. But in terms of mindset, there are some things that can make a difference. And while I don’t claim to know all the answers, I’d like to share 10 tips that helped me in my career. In this keynote I’ll cover topics like passion, expression, communication, perception, patience, empathy, risk & creativity. While the title makes it look like a Buzzfeed-style article, these 10 tips & tricks are a guideline in a series of stories I’ll share with you. Take from it what you want. No success guaranteed though. And no refunds! 😉"
         talk_video_url:
         speakers:
-          speaker_1: *AnneJuliaSeitz
+          speaker_1: *ThijsFeryn
 
-      An-ensembling-approach-to-making-legacy-code-habitable:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "An ensembling approach to making legacy code habitable"
-        talk_description: "It's the beginning of a new quarter and your team has just inherited ownership of an existing product. However, knowledge of the system is spread around, or has been lost: most of your colleagues have never written a PHPUnit test before, or even worked in this programming language. How do you go from not knowing how to approach a task to being confident about making new deployments? From being a knowledge silo to being able to set the the team loose to work on a new feature? Learn from the case study of a gelled team facing a new challenge by working together on the same thing, at the same time, in the same space, and at the same computer: ensemble programming."
-        talk_video_url:
-        speakers:
-          speaker_1: *GiorgioSironi
 
-      A-slice-of-PIE-revolutionising-PHP-extension-installation:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "🥧 A slice of PIE: revolutionising PHP extension installation"
-        talk_description: "PHP Installer for Extensions (PIE) is an innovative tool under development by the PHP Foundation to modernise how PHP extensions are installed and managed. For decades, PECL has been the go-to mechanism, but it's time for a change. In this talk, we’ll explore why PIE is poised to replace PECL, its goals, and what makes it a game-changer for PHP developers. We'll dive into PIE's features, demo its usage, and provide a glimpse of its roadmap, including exciting enhancements already in the works. Whether you're a seasoned developer or new to PHP extensions, discover how PIE is shaping the future of PHP extension installation."
-        talk_video_url:
-        speakers:
-          speaker_1: *JamesTitcumb
 
-      Async-PHP-with-Coroutines-Building-Scalable-Applications:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Async PHP with Coroutines: Building Scalable Applications"
-        talk_description: "Scalability in PHP applications is no longer limited by the traditional request-response model. In this talk, we’ll explore how coroutines bring true asynchronous capabilities to PHP, allowing you to handle multiple tasks concurrently without the overhead of multithreading. We’ll dive into coroutine fundamentals, demonstrate practical examples using libraries like Swoole, and highlight real-world scenarios where asynchronous programming can boost performance. Whether you’re building high-traffic APIs, real-time chat applications, or microservices, you’ll learn how coroutines make PHP a powerful tool for scaling your applications efficiently."
-        talk_video_url:
-        speakers:
-          speaker_1: *KhushbooVerma
+
+
+
+
