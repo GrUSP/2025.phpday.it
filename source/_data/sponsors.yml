@@ -37,18 +37,22 @@ silver:
     logo_filename: "datadog.svg"
     site_url: "https://www.datadoghq.com/"
   sponsor2:
+    name: "Hostaway"
+    logo_filename: "hostaway.png"
+    site_url: "https://hostaway.com/"
+  sponsor3:
     name: "Madisoft"
     logo_filename: "madisoft.svg"
     site_url: "https://labs.madisoft.it"
-  sponsor3:
+  sponsor4:
     name: "roave"
     logo_filename: "roave.svg"
     site_url: "https://roave.com/"
-  sponsor4:
+  sponsor5:
     name: "storyblok"
     logo_filename: "storyblok.svg"
     site_url: "https://www.storyblok.com/lp/developers"
-  sponsor5:
+  sponsor6:
     name: "switcho"
     logo_filename: "switcho.svg"
     site_url: "https://www.switcho.it/"
