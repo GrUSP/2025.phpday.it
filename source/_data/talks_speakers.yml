@@ -304,6 +304,30 @@ speaker_22: &KhushbooVerma
   speaker_mastodon_url: ""
   is_mc: false
 
+speaker_24: &RobertoButti
+  speaker_in_speaker_lists: true
+  speaker_name: Roberto Butti
+  speaker_pic_filename: roberto-butti.png
+  speaker_role: "MASTER OF CEREMONIES | Senior Solution Engineer @ Storyblok"
+  speaker_bio: ""
+  speaker_github_url: ""
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: ""
+  speaker_mastodon_url: ""
+  is_mc: true
+speaker_25: &ZuzanaKunckova
+  speaker_in_speaker_lists: true
+  speaker_name: Zuzana Kunckova
+  speaker_pic_filename: zuzana-kunckova.png
+  speaker_role: "MASTER OF CEREMONIES | Full stack developer & Founder of Larabelles"
+  speaker_bio: ""
+  speaker_github_url: ""
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: ""
+  speaker_mastodon_url: ""
+  is_mc: true
 
 
 
@@ -331,6 +355,8 @@ speakers:
   speaker_20: *GiorgioSironi
   speaker_21: *JamesTitcumb
   speaker_22: *KhushbooVerma
+  speaker_24: *RobertoButti
+  speaker_25: *ZuzanaKunckova
 
 tracks:
   track_1: &track_1
