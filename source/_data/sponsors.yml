@@ -24,10 +24,14 @@ gold:
     logo_filename: "kanbanbox.svg"
     site_url: "https://www.kanbanbox.com/"
   sponsor3:
+    name: "shopware"
+    logo_filename: "shopware.svg"
+    site_url: "https://www.shopware.com/en/"
+  sponsor4:
     name: "SparkFabrik"
     logo_filename: "sparkfabrik.svg"
     site_url: "https://www.sparkfabrik.com/"
-  sponsor4:
+  sponsor5:
     name: "workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"

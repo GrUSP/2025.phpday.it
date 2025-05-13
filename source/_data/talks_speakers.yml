@@ -226,12 +226,12 @@ speaker_16: &DerickRethans
   speaker_mastodon_url: "https://phpc.social/@derickr"
   is_mc: false
 
-speaker_17: &MichelleSanver
+speaker_17: &tbd
   speaker_in_speaker_lists: true
-  speaker_name: Michelle Sanver
-  speaker_pic_filename: Michelle-Sanver.jpg
-  speaker_role: "Senior software architect @ Liip"
-  speaker_bio: "Michelle Sanver works as a senior software developer and architect at Liip. A self organised Swiss web agency. Michelle loves anything community related and is a big advocate of Open Source. She is a code- passionate colourful geek with an expertise in backend development API's and the Symfony framework. With more than 20 years of PHP experience she is eager to share her extensive knowledge."
+  speaker_name: tbd
+  speaker_pic_filename: .jpg
+  speaker_role: ""
+  speaker_bio: ""
   speaker_github_url: ""
   speaker_twitter_url: ""
   speaker_instagram_url: ""
@@ -349,7 +349,6 @@ speakers:
   speaker_14: *SuleBalogunOlanrewaju
   speaker_15: *RomanPronskiy
   speaker_16: *DerickRethans
-  speaker_17: *MichelleSanver
   speaker_18: *JamesSeconde
   speaker_19: *AnneJuliaSeitz
   speaker_20: *GiorgioSironi
@@ -697,16 +696,16 @@ days:
         speakers:
           speaker_1: *TimoBakx
 
-      Advanced-Serializing-in-PHP:
+      TBD:
         item_type: "talk"
         track: *track_1
         start_datetime: 2025-05-16T15:25+02:00
         end_datetime: 2025-05-16T16:00+02:00
-        talk_title: "Advanced Serializing in PHP: Speed it up!"
-        talk_description: "Building an API for the biggest retailer of Switzerland had some interesting challenges. We had extremely complex data not meant for a digital age. The API bottleneck was and probably always will be; serializing. It was a long journey for us to get the most performance out of this. We tried every serialization in PHP known to man, and in the end... We are proud of what we’ve accomplished and I want to share the journey and deep dive into serialization with you all. And in the end: A colleague wrote php-to-go so that we could GO beyond PHP, using PHP and GoLang together, for an amazing performance boost."
+        talk_title: ""
+        talk_description: ""
         talk_video_url:
         speakers:
-          speaker_1: *MichelleSanver
+          speaker_1: *tbd
 
       OAuth-2.1-The-Future-of-API-Security:
         item_type: "talk"
