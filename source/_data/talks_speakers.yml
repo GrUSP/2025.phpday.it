@@ -696,20 +696,20 @@ days:
         speakers:
           speaker_1: *TimoBakx
 
-      TBD:
+      You-cant-be-who-you-cant-see:
         item_type: "talk"
-        track: *track_1
+        track: *track_2
         start_datetime: 2025-05-16T15:25+02:00
         end_datetime: 2025-05-16T16:00+02:00
-        talk_title: ""
-        talk_description: ""
+        talk_title: "You can't be who you can't see"
+        talk_description: "Throughout history, people have used stories, role models, and images to inform us about who we are and what our potential is. But you can't be who you can't see. What happens when a large part of the population is so underrepresented is almost invisible? What could we be missing out on? This talk is the story and purpose behind Larabelles."
         talk_video_url:
         speakers:
-          speaker_1: *tbd
+          speaker_1: *ZuzanaKunckova
 
       OAuth-2.1-The-Future-of-API-Security:
         item_type: "talk"
-        track: *track_2
+        track: *track_1
         start_datetime: 2025-05-16T15:25+02:00
         end_datetime: 2025-05-16T16:00+02:00
         talk_title: "OAuth 2.1: The Future of API Security"
