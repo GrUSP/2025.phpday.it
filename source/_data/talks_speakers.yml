@@ -321,7 +321,8 @@ speaker_25: &ZuzanaKunckova
   speaker_name: Zuzana Kunckova
   speaker_pic_filename: zuzana-kunckova.png
   speaker_role: "MASTER OF CEREMONIES | Full stack developer & Founder of Larabelles"
-  speaker_bio: ""
+  speaker_bio: "Zuzana is a UK-based full-stack web developer and the founder of Larabelles. She works with PHP, Laravel, its ecosystem, and any related technologies.
+Zuzana has a degree in Psychology and enjoys learning about just about everything. She is especially interested in the issues women face, globally, and decided to focus her efforts on diversity and gender inequality within the tech industry."
   speaker_github_url: ""
   speaker_twitter_url: ""
   speaker_instagram_url: ""
